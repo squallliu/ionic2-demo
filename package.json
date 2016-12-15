@@ -32,10 +32,23 @@
     "cordova-plugin-whitelist",
     "cordova-plugin-device",
     "cordova-plugin-statusbar",
-    "cordova-plugin-splashscreen",
     "cordova-plugin-console",
-    "ionic-plugin-keyboard"
+    "ionic-plugin-keyboard",
+    {
+      "locator": "https://github.com/squallliu/cordova-plugin-Immerse.git",
+      "id": "com.whcyit.cordova.plugin.ImmersePlugin"
+    },
+    {
+      "locator": "https://github.com/squallliu/cordova-plugin-splashscreen.git",
+      "id": "cordova-plugin-splashscreen"
+    }
   ],
-  "cordovaPlatforms": [],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ],
   "description": "whcyit-demo: An Ionic project"
 }
