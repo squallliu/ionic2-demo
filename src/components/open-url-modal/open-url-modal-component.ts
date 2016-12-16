@@ -30,17 +30,14 @@ export class OpenUrlModalCmp {
     this.options = _navParams.get('openUrlModalOptions');
     assert(this.options, 'openUrlModal options must be valid');
 
-    if (!isPresent(this.options.color)) {
-      this.options.color = 'light';
-    }
-
+    this.options.color = isPresent(this.options.color) ? this.options.color : 'light';
+    this.options.onmessage = isPresent(this.options.onmessage) ? this.options.onmessage : (e) => {};
     this.safeUrl = sanitizer.bypassSecurityTrustResourceUrl(this.options.url);
 
     window.addEventListener('message', this.options.onmessage, false);
   }
 
   dismiss() {
-    window.removeEventListener('message', this.options.onmessage, false);
-    this.viewCtrl.dismiss();
+    this.viewCtrl.dismiss(this.options);
   }
 }

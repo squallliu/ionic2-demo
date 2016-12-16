@@ -10,6 +10,9 @@ export class OpenUrlModalController {
 
   open(opts: OpenUrlModalOptions = {}, modalOpts: ModalOptions = {}) {
     let modal = this.modalCtrl.create(OpenUrlModalCmp, { openUrlModalOptions: opts} , modalOpts);
+    modal.onDidDismiss(data => {
+      window.removeEventListener('message', data.onmessage, false);
+    });
     modal.present();
   }
 }
