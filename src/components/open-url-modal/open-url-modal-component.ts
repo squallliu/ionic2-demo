@@ -35,9 +35,12 @@ export class OpenUrlModalCmp {
     }
 
     this.safeUrl = sanitizer.bypassSecurityTrustResourceUrl(this.options.url);
+
+    window.addEventListener('message', this.options.onmessage, false);
   }
 
   dismiss() {
+    window.removeEventListener('message', this.options.onmessage, false);
     this.viewCtrl.dismiss();
   }
 }
