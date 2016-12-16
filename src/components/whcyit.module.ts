@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { IonicModule } from 'ionic-angular';
-import { OpenUrlModalCmp, OpenUrlModalController } from './open-url-modal/open-url-modal';
+
+import { OpenUrlModalCmp } from './open-url-modal/open-url-modal-component';
+import { OpenUrlModalController } from './open-url-modal/open-url-modal';
+
+export { OpenUrlModalController } from './open-url-modal/open-url-modal';
 
 @NgModule({
   imports: [

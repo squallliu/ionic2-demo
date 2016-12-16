@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { OpenUrlModalController } from '../../components/open-url-modal/open-url-modal';
+import { OpenUrlModalController } from '../../components/index';
 
 @Component({
   selector: 'page-home',
@@ -11,6 +11,9 @@ export class HomePage {
   }
 
   openExternalUrl() {
-    this.openUrlCtrl.open();
+    this.openUrlCtrl.open({
+      title: '百度',
+      url: 'http://www.baidu.com'
+    });
   }
 }
