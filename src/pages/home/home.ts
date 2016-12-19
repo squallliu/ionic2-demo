@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { OpenUrlModalController } from '../../components/index';
+import { OpenUrlModalController } from 'whcyit-ionic';
 
 @Component({
   selector: 'page-home',

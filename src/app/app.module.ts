@@ -3,7 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
-import { WhcyitModule } from '../components/whcyit.module';
+import { WhcyitModule } from 'whcyit-ionic';
 
 @NgModule({
   declarations: [
