@@ -1,5 +1,5 @@
 # whcyit-demo
-ionic2 demo
+ionic2 demo (https://github.com/squallliu/whcyit-ionic)
 - android 全屏 splashscreen
 - android 透明状态栏
 - 打开外部连接服务
@@ -14,4 +14,3 @@ ionic platform add android
 
 # todo
 - ion-alpha-scroll for ionic2
-- 提取 components 为单独的 npm 模块工程
