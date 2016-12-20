@@ -1,14 +1,17 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 
 import { WhcyitModule } from 'whcyit-ionic';
+
+import { MyApp } from './app.component';
+import { HomePage } from '../pages/home/home';
+import { AlphaScrollPage } from '../pages/alpha-scroll/alpha-scroll';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AlphaScrollPage
   ],
   imports: [
     IonicModule.forRoot(MyApp, {
@@ -23,7 +26,8 @@ import { WhcyitModule } from 'whcyit-ionic';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AlphaScrollPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

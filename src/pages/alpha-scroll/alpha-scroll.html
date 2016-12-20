@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>alpha-scroll</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-alpha-scroll *ngIf="breeds" [listData]="breeds" key="name" [itemTemplate]="alphaScrollItemTemplate" [currentPageClass]="currentPageClass"
+    [triggerChange]="triggerAlphaScrollChange">
+  </ion-alpha-scroll>
+</ion-content>
