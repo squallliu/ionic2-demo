@@ -24,10 +24,10 @@ export class AlphaScrollPage {
   }
 
   assignBreeds() {
-    var str = "ZABCJKLDEFGOPQRHIMNSWXY";
+    var str = "ABCJLDEFGOQRHINSXY";
     for (var i = 0; i < str.length; i++) {
       var nextChar = str.charAt(i);
-      for (var j = 0; j < 5; j++) {
+      for (var j = 0; j < 3; j++) {
         var name = nextChar + 'name' + j;
         this.breeds.push({
           name: name,
