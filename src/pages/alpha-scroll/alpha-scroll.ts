@@ -13,14 +13,13 @@ export class AlphaScrollPage {
       <p>{{item.description}}</p>
     </ion-item>
   `;
-  triggerAlphaScrollChange: number = 0;
 
   constructor() {
     this.assignBreeds();
   }
 
   onItemClick(item) {
-    this.triggerAlphaScrollChange++;
+    console.log(item);
   }
 
   assignBreeds() {
