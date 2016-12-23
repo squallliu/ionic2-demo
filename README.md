@@ -12,4 +12,5 @@ git clone https://github.com/squallliu/whcyit-demo.git
 cd whcyit-demo
 npm install
 ionic platform add android
+ionic serve
 ```
