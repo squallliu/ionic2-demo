@@ -5,6 +5,7 @@ import { OpenUrlModalController } from 'whcyit-ionic';
 
 import { AlphaScrollPage } from '../alpha-scroll/alpha-scroll';
 import { BaiduMapPage } from '../baidu-map/baidu-map';
+import { FilterBarPage } from '../filter-bar/filter-bar';
 
 @Component({
   selector: 'page-home',
@@ -27,5 +28,9 @@ export class HomePage {
 
   baiduMap() {
     this.navCtrl.push(BaiduMapPage);
+  }
+
+  filterBar() {
+    this.navCtrl.push(FilterBarPage);
   }
 }
