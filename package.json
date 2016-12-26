@@ -1,5 +1,6 @@
 {
   "name": "ionic-hello-world",
+  "version": "1.0.0",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
@@ -36,22 +37,18 @@
     "cordova-plugin-device",
     "cordova-plugin-statusbar",
     "cordova-plugin-console",
-    "ionic-plugin-keyboard",
-    {
+    "ionic-plugin-keyboard", {
       "locator": "https://github.com/squallliu/cordova-plugin-Immerse.git",
       "id": "com.whcyit.cordova.plugin.ImmersePlugin"
-    },
-    {
+    }, {
       "locator": "https://github.com/squallliu/cordova-plugin-splashscreen.git",
       "id": "cordova-plugin-splashscreen"
     }
   ],
-  "cordovaPlatforms": [
-    {
-      "platform": "android",
-      "version": "",
-      "locator": "android"
-    }
-  ],
+  "cordovaPlatforms": [{
+    "platform": "android",
+    "version": "",
+    "locator": "android"
+  }],
   "description": "whcyit-demo: An Ionic project"
 }
