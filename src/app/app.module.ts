@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AlphaScrollPage } from '../pages/alpha-scroll/alpha-scroll';
 import { BaiduMapPage } from '../pages/baidu-map/baidu-map';
+import { ImageLoaderPage } from '../pages/image-loader/image-loader';
 import { FilterBarPage } from '../pages/filter-bar/filter-bar';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FilterBarPage } from '../pages/filter-bar/filter-bar';
     HomePage,
     AlphaScrollPage,
     BaiduMapPage,
+    ImageLoaderPage,
     FilterBarPage
   ],
   imports: [
@@ -34,6 +36,7 @@ import { FilterBarPage } from '../pages/filter-bar/filter-bar';
     HomePage,
     AlphaScrollPage,
     BaiduMapPage,
+    ImageLoaderPage,
     FilterBarPage
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }, ListData]

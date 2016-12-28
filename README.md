@@ -5,6 +5,7 @@ ionic2 demo (https://github.com/squallliu/whcyit-ionic)
 - 打开外部连接服务
 - 百度地图
 - 类通讯录首字母索引滚动组件
+- 图片加载组件
 - 搜索栏例子(ionic2自带，非扩展组件)
 
 # run

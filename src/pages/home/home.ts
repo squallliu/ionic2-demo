@@ -5,6 +5,7 @@ import { OpenUrlModalController } from 'whcyit-ionic';
 
 import { AlphaScrollPage } from '../alpha-scroll/alpha-scroll';
 import { BaiduMapPage } from '../baidu-map/baidu-map';
+import { ImageLoaderPage } from '../image-loader/image-loader';
 import { FilterBarPage } from '../filter-bar/filter-bar';
 
 @Component({
@@ -32,5 +33,9 @@ export class HomePage {
 
   filterBar() {
     this.navCtrl.push(FilterBarPage);
+  }
+
+  imageLoader() {
+    this.navCtrl.push(ImageLoaderPage);
   }
 }
