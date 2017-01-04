@@ -7,6 +7,7 @@ import { AlphaScrollPage } from '../alpha-scroll/alpha-scroll';
 import { BaiduMapPage } from '../baidu-map/baidu-map';
 import { ImageLoaderPage } from '../image-loader/image-loader';
 import { FilterBarPage } from '../filter-bar/filter-bar';
+import { InputsPage } from '../inputs/inputs';
 
 @Component({
   selector: 'page-home',
@@ -37,5 +38,9 @@ export class HomePage {
 
   imageLoader() {
     this.navCtrl.push(ImageLoaderPage);
+  }
+
+  inputs() {
+    this.navCtrl.push(InputsPage);
   }
 }

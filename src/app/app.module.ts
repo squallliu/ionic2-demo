@@ -10,6 +10,7 @@ import { AlphaScrollPage } from '../pages/alpha-scroll/alpha-scroll';
 import { BaiduMapPage } from '../pages/baidu-map/baidu-map';
 import { ImageLoaderPage } from '../pages/image-loader/image-loader';
 import { FilterBarPage } from '../pages/filter-bar/filter-bar';
+import { InputsPage } from '../pages/inputs/inputs';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FilterBarPage } from '../pages/filter-bar/filter-bar';
     AlphaScrollPage,
     BaiduMapPage,
     ImageLoaderPage,
-    FilterBarPage
+    FilterBarPage,
+    InputsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp, {
@@ -37,7 +39,8 @@ import { FilterBarPage } from '../pages/filter-bar/filter-bar';
     AlphaScrollPage,
     BaiduMapPage,
     ImageLoaderPage,
-    FilterBarPage
+    FilterBarPage,
+    InputsPage
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }, ListData]
 })
