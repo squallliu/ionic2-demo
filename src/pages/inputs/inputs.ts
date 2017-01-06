@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: 'inputs.html'
 })
 export class InputsPage {
-  starLevel: number = 5;
+  starLevel: number = 4.5;
 
   constructor() { }
 }
