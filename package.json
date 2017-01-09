@@ -29,7 +29,8 @@
     "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "0.0.48",
+    "@ionic/app-scripts": "1.0.0",
+    "sw-toolbox": "^3.4.0",
     "typescript": "2.0.9"
   },
   "cordovaPlugins": [
@@ -37,10 +38,12 @@
     "cordova-plugin-device",
     "cordova-plugin-statusbar",
     "cordova-plugin-console",
-    "ionic-plugin-keyboard", {
+    "ionic-plugin-keyboard",
+    {
       "locator": "https://github.com/squallliu/cordova-plugin-Immerse.git",
       "id": "com.whcyit.cordova.plugin.ImmersePlugin"
-    }, {
+    },
+    {
       "locator": "https://github.com/squallliu/cordova-plugin-splashscreen.git",
       "id": "cordova-plugin-splashscreen"
     },
@@ -48,10 +51,12 @@
     "cordova-plugin-file",
     "cordova-plugin-compat"
   ],
-  "cordovaPlatforms": [{
-    "platform": "android",
-    "version": "",
-    "locator": "android"
-  }],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ],
   "description": "whcyit-demo: An Ionic project"
 }
