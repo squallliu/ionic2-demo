@@ -30,7 +30,7 @@ import { InputsPage } from '../pages/inputs/inputs';
         }
       }
     }),
-    WhcyitModule
+    WhcyitModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
