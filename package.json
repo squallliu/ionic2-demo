@@ -33,6 +33,9 @@
     "@ionic/app-scripts": "1.0.0",
     "typescript": "2.0.9"
   },
+  "conifg": {
+
+  },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
     "cordova-plugin-device",
