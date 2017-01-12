@@ -9,12 +9,6 @@ import { ListData } from '../../providers/list-data';
 export class AlphaScrollPage {
   breeds: Array<any> = [];
   currentPageClass = this;
-  alphaScrollItemTemplate: string = `
-    <ion-item (click)="currentPageClass.onItemClick(item)">
-      <h2>{{item.name}}</h2>
-      <p>{{item.description}}</p>
-    </ion-item>
-  `;
 
   constructor(private listData: ListData) {
     this.listData.list().then(data => {

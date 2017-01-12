@@ -3,8 +3,13 @@
     <ion-title>alpha-scroll</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content>
   <ion-alpha-scroll *ngIf="breeds" [listData]="breeds" key="name" [itemTemplate]="alphaScrollItemTemplate" [currentPageClass]="currentPageClass">
   </ion-alpha-scroll>
 </ion-content>
+<template #alphaScrollItemTemplate let-item="item" let-currentPageClass="currentPageClass">
+  <ion-item (click)="currentPageClass.onItemClick(item)">
+    <h2>{{item.name}}</h2>
+    <p>{{item.description}}</p>
+  </ion-item>
+</template>
