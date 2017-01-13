@@ -4,7 +4,7 @@ var globals = require('rollup-plugin-node-globals');
 var builtins = require('rollup-plugin-node-builtins');
 var json = require('rollup-plugin-json');
 
-export default {
+var rollupConfig = {
   entry: 'www/build/main.js',
   dest: 'www/build/main.js',
   format: 'iife',

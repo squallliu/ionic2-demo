@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build && rollup -c && ionic-app-scripts minify",
-    "ionic:build": "ionic-app-scripts build && rollup -c && ionic-app-scripts minify",
-    "ionic:serve": "ionic-app-scripts serve && rollup -c && ionic-app-scripts minify"
+    "build": "ionic-app-scripts build -r ./rollup.config.js",
+    "ionic:build": "ionic-app-scripts build -r ./rollup.config.js && ionic-app-scripts minify",
+    "ionic:serve": "ionic-app-scripts serve -r ./rollup.config.js"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
