@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "build": "ionic-app-scripts build -r ./node_modules/@ionic/app-scripts/config/rollup.config.js",
+    "ionic:build": "ionic-app-scripts build -r ./node_modules/@ionic/app-scripts/config/rollup.config.js && ionic-app-scripts minify",
+    "ionic:serve": "ionic-app-scripts serve -r ./node_modules/@ionic/app-scripts/config/rollup.config.js"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.0.0",
-    "typescript": "2.1.4"
+    "typescript": "2.0.10"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
