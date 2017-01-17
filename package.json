@@ -7,8 +7,16 @@
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build -r ./node_modules/@ionic/app-scripts/config/rollup.config.js",
+    "ionic2-custom-icons": "ionic2-custom-icons",
+    "build:before": "ionic2-custom-icons",
+    "serve:before": "ionic2-custom-icons",
     "ionic:build": "ionic-app-scripts build -r ./node_modules/@ionic/app-scripts/config/rollup.config.js && ionic-app-scripts minify",
     "ionic:serve": "ionic-app-scripts serve -r ./node_modules/@ionic/app-scripts/config/rollup.config.js"
+  },
+  "config": {
+    "ionic_copy": "./config/copy.config.js",
+    "ionic_sass": "./config/sass.config.js",
+    "custom_icons": "./config/custom-icons.config.js"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -23,11 +31,12 @@
     "@ionic/storage": "1.1.7",
     "ionic-angular": "2.0.0-rc.5",
     "ionic-native": "2.2.11",
+    "ionic2-custom-icons": "^0.3.1",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
+    "sw-toolbox": "^3.4.0",
     "whcyit-ionic": "git+https://github.com/squallliu/whcyit-ionic.git",
-    "zone.js": "0.6.26",
-    "sw-toolbox": "^3.4.0"
+    "zone.js": "0.6.26"
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.0.0",
@@ -51,10 +60,12 @@
     "cordova-plugin-file",
     "cordova-plugin-compat"
   ],
-  "cordovaPlatforms": [{
-    "platform": "android",
-    "version": "",
-    "locator": "android"
-  }],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ],
   "description": "whcyit-demo: An Ionic project"
 }

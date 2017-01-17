@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "FoundationIcons";
+  src: url('../assets/fonts/FoundationIcons.eot');
+  src: url('../assets/fonts/FoundationIcons.eot?#iefix') format('eot'),
+  url('../assets/fonts/FoundationIcons.woff2') format('woff2'),
+  url('../assets/fonts/FoundationIcons.woff') format('woff'),
+  url('../assets/fonts/FoundationIcons.ttf') format('truetype'),
+  url('../assets/fonts/FoundationIcons.svg#FoundationIcons') format('svg');
+}
+
+@mixin fi-styles {
+  font-family: "FoundationIcons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+  text-decoration: none;
+  text-transform: none;
+}
+
+%fi {
+  @include fi-styles;
+}
+
+@function fi-char($filename) {
+  $char: "";
+
+  @if $filename == camera {
+  $char: "\E001";
+}
+  @if $filename == home {
+  $char: "\E002";
+}
+  @if $filename == music {
+  $char: "\E003";
+}
+
+@return $char;
+}
+
+@mixin fi($filename, $insert: before, $extend: true) {
+&:#{$insert} {
+  @if $extend {
+    @extend %fi;
+  } @else {
+    @include fi-styles;
+  }
+  content: fi-char($filename);
+}
+}
+
+.fi-camera {
+  @include fi(camera);
+}
+.fi-home {
+  @include fi(home);
+}
+.fi-music {
+  @include fi(music);
+}

@@ -8,6 +8,7 @@ import { BaiduMapPage } from '../baidu-map/baidu-map';
 import { ImageLoaderPage } from '../image-loader/image-loader';
 import { FilterBarPage } from '../filter-bar/filter-bar';
 import { InputsPage } from '../inputs/inputs';
+import { IconsPage } from '../icons/icons';
 
 @Component({
   selector: 'page-home',
@@ -42,5 +43,9 @@ export class HomePage {
 
   inputs() {
     this.navCtrl.push(InputsPage);
+  }
+
+  icons() {
+    this.navCtrl.push(IconsPage);
   }
 }

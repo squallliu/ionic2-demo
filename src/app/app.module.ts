@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 
 import { WhcyitModule } from 'whcyit-ionic';
+import { CustomIconsModule } from 'ionic2-custom-icons';
 
 import { ListData } from '../providers/list-data';
 import { MyApp } from './app.component';
@@ -11,6 +12,7 @@ import { BaiduMapPage } from '../pages/baidu-map/baidu-map';
 import { ImageLoaderPage } from '../pages/image-loader/image-loader';
 import { FilterBarPage } from '../pages/filter-bar/filter-bar';
 import { InputsPage } from '../pages/inputs/inputs';
+import { IconsPage } from '../pages/icons/icons';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { InputsPage } from '../pages/inputs/inputs';
     BaiduMapPage,
     ImageLoaderPage,
     FilterBarPage,
-    InputsPage
+    InputsPage,
+    IconsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp, {
@@ -30,7 +33,8 @@ import { InputsPage } from '../pages/inputs/inputs';
         }
       }
     }),
-    WhcyitModule.forRoot()
+    WhcyitModule.forRoot(),
+    CustomIconsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -40,7 +44,8 @@ import { InputsPage } from '../pages/inputs/inputs';
     BaiduMapPage,
     ImageLoaderPage,
     FilterBarPage,
-    InputsPage
+    InputsPage,
+    IconsPage
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }, ListData]
 })
