@@ -8,6 +8,7 @@ ionic2 demo (https://github.com/squallliu/whcyit-ionic)
 - 图片加载组件
 - 星级显示编辑组件
 - 搜索栏例子(ionic2自带，非扩展组件)
+- 自定义字体图标例子(ionic2-custom-icons)
 
 # run
 ```
