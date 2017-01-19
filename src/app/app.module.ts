@@ -32,7 +32,7 @@ import { IconsPage } from '../pages/icons/icons';
           statusbarPadding: true
         },
         ios: {
-          backButtonText: '返回'
+          backButtonText: ''
         }
       }
     }),
