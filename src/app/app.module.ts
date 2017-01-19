@@ -30,6 +30,9 @@ import { IconsPage } from '../pages/icons/icons';
       platforms: {
         android: {
           statusbarPadding: true
+        },
+        ios: {
+          backButtonText: '返回'
         }
       }
     }),
