@@ -21,7 +21,9 @@ coverage/
 dist/
 node_modules/
 tmp/
+res/
 temp/
+typings/
 hooks/
 platforms/
 plugins/
