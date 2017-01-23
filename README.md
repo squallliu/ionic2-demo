@@ -1,5 +1,5 @@
-# whcyit-demo
-ionic2 demo (https://github.com/squallliu/whcyit-ionic)
+# ionic2-demo
+ionic2 demo (https://github.com/squallliu/ext-ionic)
 - android 全屏 splashscreen
 - android 透明状态栏
 - 打开外部连接服务
@@ -12,8 +12,8 @@ ionic2 demo (https://github.com/squallliu/whcyit-ionic)
 
 # run
 ```
-git clone https://github.com/squallliu/whcyit-demo.git
-cd whcyit-demo
+git clone https://github.com/squallliu/ionic2-demo.git
+cd ionic2-demo
 npm install
 ionic platform add android
 ionic serve

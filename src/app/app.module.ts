@@ -1,7 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 
-import { WhcyitModule } from 'whcyit-ionic';
+import { ExtIonicModule } from 'ext-ionic';
 import { CustomIconsModule } from 'ionic2-custom-icons';
 
 import { ListData } from '../providers/list-data';
@@ -36,7 +36,7 @@ import { IconsPage } from '../pages/icons/icons';
         }
       }
     }),
-    WhcyitModule.forRoot(),
+    ExtIonicModule.forRoot(),
     CustomIconsModule
   ],
   bootstrap: [IonicApp],

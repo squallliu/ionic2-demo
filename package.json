@@ -1,5 +1,5 @@
 {
-  "name": "whcyit-demo",
+  "name": "ionic2-demo",
   "version": "1.0.0",
   "author": "squall",
   "homepage": "http://ionicframework.com/",
@@ -35,7 +35,7 @@
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
     "sw-toolbox": "^3.4.0",
-    "whcyit-ionic": "git+https://github.com/squallliu/whcyit-ionic.git",
+    "ext-ionic": "git+https://github.com/squallliu/ext-ionic.git",
     "zone.js": "0.6.26"
   },
   "devDependencies": {
@@ -50,7 +50,7 @@
     "ionic-plugin-keyboard",
     {
       "locator": "https://github.com/squallliu/cordova-plugin-Immerse.git",
-      "id": "com.whcyit.cordova.plugin.ImmersePlugin"
+      "id": "cordova-plugin-Immerse"
     },
     {
       "locator": "https://github.com/squallliu/cordova-plugin-splashscreen.git",
@@ -60,12 +60,10 @@
     "cordova-plugin-file",
     "cordova-plugin-compat"
   ],
-  "cordovaPlatforms": [
-    {
-      "platform": "android",
-      "version": "",
-      "locator": "android"
-    }
-  ],
-  "description": "whcyit-demo: An Ionic project"
+  "cordovaPlatforms": [{
+    "platform": "android",
+    "version": "",
+    "locator": "android"
+  }],
+  "description": "ionic2-demo: An Ionic project"
 }
