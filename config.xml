@@ -7,7 +7,6 @@
   <access origin="*" />
   <allow-intent href="*" />
   <allow-navigation href="*" />
-  <allow-navigation href="http://10.68.19.111:8100" />
   <platform name="android">
     <allow-intent href="market:*" />
     <preference name="SplashMaintainAspectRatio" value="true" />
