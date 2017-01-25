@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { OpenUrlModalController } from 'whcyit-ionic';
+import { OpenUrlModalController } from 'ext-ionic';
 
 import { AlphaScrollPage } from '../alpha-scroll/alpha-scroll';
 import { BaiduMapPage } from '../baidu-map/baidu-map';

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { BaiduMapOptions, GpsPoint } from 'whcyit-ionic';
+import { BaiduMapOptions, GpsPoint } from 'ext-ionic';
 
 @Component({
   selector: 'page-baidu-map',
