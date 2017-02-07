@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Platform, Config } from 'ionic-angular';
-import { StatusBar, Splashscreen, Device } from 'ionic-native';
+import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 
