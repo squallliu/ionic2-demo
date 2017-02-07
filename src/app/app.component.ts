@@ -8,13 +8,10 @@ import { HomePage } from '../pages/home/home';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage;
+  rootPage = HomePage;
 
   constructor(platform: Platform, config: Config) {
     platform.ready().then(() => {
-      config.set('android', 'statusbarPadding', !(Device.manufacturer === 'HUAWEI'));
-      this.rootPage = HomePage;
-
       StatusBar.styleDefault();
       if (window['ImmersePlugin']) {
         window['ImmersePlugin'].setDarkMode(true);
