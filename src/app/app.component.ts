@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { Platform, Config } from 'ionic-angular';
+import { StatusBar, Splashscreen, Device } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 
@@ -8,10 +8,13 @@ import { HomePage } from '../pages/home/home';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage = HomePage;
+  rootPage;
 
-  constructor(platform: Platform) {
+  constructor(platform: Platform, config: Config) {
     platform.ready().then(() => {
+      config.set('android', 'statusbarPadding', !(Device.manufacturer === 'HUAWEI'));
+      this.rootPage = HomePage;
+
       StatusBar.styleDefault();
       if (window['ImmersePlugin']) {
         window['ImmersePlugin'].setDarkMode(true);

@@ -28,9 +28,6 @@ import { IconsPage } from '../pages/icons/icons';
   imports: [
     IonicModule.forRoot(MyApp, {
       platforms: {
-        android: {
-          statusbarPadding: true
-        },
         ios: {
           backButtonText: ''
         }
