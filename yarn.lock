@@ -1667,9 +1667,9 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/invert-kv/download/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ionic-angular@2.0.0:
-  version "2.0.0"
-  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-2.0.0.tgz#5f2447c1a812e5905da0f6295f4ab672ff74d438"
+ionic-angular@2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-2.0.1.tgz#1f78b9801d149202c29765df22f1a4d39bfbebed"
 
 ionic-native@2.4.1:
   version "2.4.1"
@@ -2819,11 +2819,11 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "http://registry.npm.taobao.org/punycode/download/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
-qs@6.2.0:
+qs@6.2.0, qs@^6.2.0:
   version "6.2.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
-qs@^6.2.0, qs@~6.3.0:
+qs@~6.3.0:
   version "6.3.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
 
