@@ -41,4 +41,6 @@ $colors: ( primary: #387ef5, secondary: #32db64, danger: #f53d3d, light: #f4f4f4
 // --------------------------------------------------
 @import "roboto";
 @import "noto-sans";
-$toolbar-md-height: 44px !default;
+$toolbar-md-height: 44px;
+$cordova-md-statusbar-padding: 18px;
+$toolbar-background: #387ef5;

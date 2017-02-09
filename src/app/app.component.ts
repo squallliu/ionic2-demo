@@ -13,9 +13,6 @@ export class MyApp {
   constructor(platform: Platform, config: Config) {
     platform.ready().then(() => {
       StatusBar.styleDefault();
-      if (window['ImmersePlugin']) {
-        window['ImmersePlugin'].setDarkMode(true);
-      }
       Splashscreen.hide();
     });
   }
