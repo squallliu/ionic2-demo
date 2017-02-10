@@ -9,6 +9,7 @@ import { ImageLoaderPage } from '../image-loader/image-loader';
 import { FilterBarPage } from '../filter-bar/filter-bar';
 import { InputsPage } from '../inputs/inputs';
 import { IconsPage } from '../icons/icons';
+import { NotificationProgressPage } from '../notification-progress/notification-progress';
 
 @Component({
   selector: 'page-home',
@@ -47,5 +48,9 @@ export class HomePage {
 
   icons() {
     this.navCtrl.push(IconsPage);
+  }
+
+  notifiy() {
+    this.navCtrl.push(NotificationProgressPage);
   }
 }

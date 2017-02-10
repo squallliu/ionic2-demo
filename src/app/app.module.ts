@@ -13,6 +13,7 @@ import { ImageLoaderPage } from '../pages/image-loader/image-loader';
 import { FilterBarPage } from '../pages/filter-bar/filter-bar';
 import { InputsPage } from '../pages/inputs/inputs';
 import { IconsPage } from '../pages/icons/icons';
+import { NotificationProgressPage } from '../pages/notification-progress/notification-progress';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { IconsPage } from '../pages/icons/icons';
     ImageLoaderPage,
     FilterBarPage,
     InputsPage,
-    IconsPage
+    IconsPage,
+    NotificationProgressPage
   ],
   imports: [
     IonicModule.forRoot(MyApp, {
@@ -48,7 +50,8 @@ import { IconsPage } from '../pages/icons/icons';
     ImageLoaderPage,
     FilterBarPage,
     InputsPage,
-    IconsPage
+    IconsPage,
+    NotificationProgressPage
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }, ListData]
 })
