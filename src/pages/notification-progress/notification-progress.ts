@@ -19,7 +19,7 @@ export class NotificationProgressPage {
   }
 
   update() {
-    ExtLocalNotifications.updateProgress({
+    ExtLocalNotifications.update({
       id: 1000,
       title: '正在下载...',
       progress: true,
