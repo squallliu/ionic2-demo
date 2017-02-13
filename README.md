@@ -18,3 +18,5 @@ npm install
 ionic platform add android
 ionic serve
 ```
+
+测试提交
