@@ -15,18 +15,20 @@ import { InputsPage } from '../pages/inputs/inputs';
 import { IconsPage } from '../pages/icons/icons';
 import { NotificationProgressPage } from '../pages/notification-progress/notification-progress';
 
+const declarations: Array<any> = [
+  MyApp,
+  HomePage,
+  AlphaScrollPage,
+  BaiduMapPage,
+  ImageLoaderPage,
+  FilterBarPage,
+  InputsPage,
+  IconsPage,
+  NotificationProgressPage
+];
+
 @NgModule({
-  declarations: [
-    MyApp,
-    HomePage,
-    AlphaScrollPage,
-    BaiduMapPage,
-    ImageLoaderPage,
-    FilterBarPage,
-    InputsPage,
-    IconsPage,
-    NotificationProgressPage
-  ],
+  declarations: declarations,
   imports: [
     IonicModule.forRoot(MyApp, {
       platforms: {
@@ -42,17 +44,7 @@ import { NotificationProgressPage } from '../pages/notification-progress/notific
     CustomIconsModule
   ],
   bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HomePage,
-    AlphaScrollPage,
-    BaiduMapPage,
-    ImageLoaderPage,
-    FilterBarPage,
-    InputsPage,
-    IconsPage,
-    NotificationProgressPage
-  ],
+  entryComponents: declarations,
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }, ListData]
 })
 export class AppModule { }
