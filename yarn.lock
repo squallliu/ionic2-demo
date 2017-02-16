@@ -1349,7 +1349,7 @@ express@4.14.1:
     vary "~1.1.0"
 
 "ext-ionic@git+https://github.com/squallliu/ext-ionic.git":
-  version "1.0.5"
+  version "1.0.8"
   resolved "git+https://github.com/squallliu/ext-ionic.git#7af4d1dc54317dd012dc1c19c3b1e325ba876ec7"
   dependencies:
     "@types/hammerjs" "^2.0.34"
