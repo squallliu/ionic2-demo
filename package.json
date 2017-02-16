@@ -16,6 +16,7 @@
   "config": {
     "ionic_copy": "./config/copy.config.js",
     "ionic_sass": "./config/sass.config.js",
+    "ionic_uglifyjs": "./config/uglifyjs.config.js",
     "custom_icons": "./config/custom-icons.config.js"
   },
   "dependencies": {

@@ -17,6 +17,7 @@ import { NotificationProgressPage } from '../notification-progress/notification-
 })
 export class HomePage {
   constructor(private openUrlCtrl: OpenUrlModalController, private navCtrl: NavController) {
+    console.log(HomePage.name);
   }
 
   openExternalUrl() {
