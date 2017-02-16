@@ -11,7 +11,7 @@
     "build:before": "ionic2-custom-icons",
     "serve:before": "ionic2-custom-icons",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve -r ./node_modules/@ionic/app-scripts/config/rollup.config.js"
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "config": {
     "ionic_copy": "./config/copy.config.js",
