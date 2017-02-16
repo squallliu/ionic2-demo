@@ -6,11 +6,11 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build -r ./node_modules/@ionic/app-scripts/config/rollup.config.js",
+    "build": "ionic-app-scripts build",
     "ionic2-custom-icons": "ionic2-custom-icons",
     "build:before": "ionic2-custom-icons",
     "serve:before": "ionic2-custom-icons",
-    "ionic:build": "ionic-app-scripts build -r ./node_modules/@ionic/app-scripts/config/rollup.config.js && ionic-app-scripts minify",
+    "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve -r ./node_modules/@ionic/app-scripts/config/rollup.config.js"
   },
   "config": {
