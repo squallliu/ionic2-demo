@@ -10,6 +10,7 @@ import { FilterBarPage } from '../filter-bar/filter-bar';
 import { InputsPage } from '../inputs/inputs';
 import { IconsPage } from '../icons/icons';
 import { NotificationProgressPage } from '../notification-progress/notification-progress';
+import { JsonStoragePage } from "../json-storage/json-storage";
 
 @Component({
   selector: 'page-home',
@@ -53,5 +54,9 @@ export class HomePage {
 
   notifiy() {
     this.navCtrl.push(NotificationProgressPage);
+  }
+
+  jsonStorage() {
+    this.navCtrl.push(JsonStoragePage);
   }
 }
