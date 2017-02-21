@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { JsonStorage, isPresent } from "ext-ionic";
+import { JsonFileStorage, isPresent } from "ext-ionic";
 
 @Component({
   selector: 'page-json-storage',
@@ -9,7 +9,7 @@ export class JsonStoragePage {
   jsonStr: string;
   storage: any = {};
 
-  constructor(private jsonStorage: JsonStorage) {
+  constructor(private jsonStorage: JsonFileStorage) {
     this.jsonStr = JSON.stringify({ name: '用户名', password: '密码' });
   }
 
