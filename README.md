@@ -12,6 +12,7 @@ ionic2 demo (https://github.com/squallliu/ext-ionic)
 
 # run
 ```
+npm install -g https://github.com/am-wangjin/cordova-hot-code-push-cli.git
 git clone https://github.com/squallliu/ionic2-demo.git
 cd ionic2-demo
 npm install
