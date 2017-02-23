@@ -24,7 +24,6 @@ tmp/
 res/
 temp/
 typings/
-hooks/
 platforms/
 plugins/
 plugins/android.json
