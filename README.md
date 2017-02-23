@@ -9,6 +9,9 @@ ionic2 demo (https://github.com/squallliu/ext-ionic)
 - 星级显示编辑组件
 - 搜索栏例子(ionic2自带，非扩展组件)
 - 自定义字体图标例子(ionic2-custom-icons)
+- 文件存储
+- 打包自动压缩图片
+- hot code push
 
 # run
 ```
