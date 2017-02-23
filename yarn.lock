@@ -18,7 +18,7 @@
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/@angular/compiler/download/@angular/compiler-2.2.1.tgz#16e7faf588cf9121a0f6c16d0bae2830f4cafdc1"
 
-"@angular/core@2.2.1", "@angular/core@^2.0.0":
+"@angular/core@2.2.1":
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/@angular/core/download/@angular/core-2.2.1.tgz#86fdc34a370a4fcfe84ed9de4b3c43548612919c"
 
@@ -83,15 +83,13 @@
     ws "1.1.1"
     xml2js "^0.4.17"
 
-"@ionic/storage@1.1.7":
-  version "1.1.7"
-  resolved "http://registry.npm.taobao.org/@ionic/storage/download/@ionic/storage-1.1.7.tgz#332b39dbffbb25f9d3505e215cde17ab6ea3ad62"
+"@ionic/storage@1.1.9":
+  version "1.1.9"
+  resolved "http://registry.npm.taobao.org/@ionic/storage/download/@ionic/storage-1.1.9.tgz#edf9d695fa995b24be3db48212323c6a8bddefa6"
   dependencies:
-    "@angular/core" "^2.0.0"
     "@types/localforage" "0.0.30"
-    localforage "^1.4.2"
-    localforage-cordovasqlitedriver "^1.5.0"
-    rxjs "5.0.0-beta.12"
+    localforage "~1.4.2"
+    localforage-cordovasqlitedriver "~1.5.0"
 
 "@types/hammerjs@^2.0.34":
   version "2.0.34"
@@ -934,13 +932,13 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@2.8.x:
+commander@2.8.x, commander@^2.8.1:
   version "2.8.1"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.8.1.tgz#06be367febfda0c330aa1e2a072d3dc9762425d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commander@^2.8.1, commander@^2.9.0:
+commander@^2.9.0:
   version "2.9.0"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
   dependencies:
@@ -2339,15 +2337,16 @@ loader-utils@^0.2.16:
     json5 "^0.5.0"
     object-assign "^4.0.1"
 
-localforage-cordovasqlitedriver@^1.5.0:
-  version "1.6.0"
-  resolved "http://registry.npm.taobao.org/localforage-cordovasqlitedriver/download/localforage-cordovasqlitedriver-1.6.0.tgz#90270caa95eeb10a0397831fe106118885307d71"
-  dependencies:
-    localforage ">=1.5.0"
-
-localforage@>=1.5.0, localforage@^1.4.2:
+localforage-cordovasqlitedriver@~1.5.0:
   version "1.5.0"
-  resolved "http://registry.npm.taobao.org/localforage/download/localforage-1.5.0.tgz#6b994e19b56611fa85df3992df397ac4ab66e815"
+  resolved "http://registry.npm.taobao.org/localforage-cordovasqlitedriver/download/localforage-cordovasqlitedriver-1.5.0.tgz#f934789e6ad9a39bac05fdd1168812f438535762"
+  dependencies:
+    "@types/localforage" "0.0.30"
+    localforage ">=1.4.0"
+
+localforage@>=1.4.0, localforage@~1.4.2:
+  version "1.4.3"
+  resolved "http://registry.npm.taobao.org/localforage/download/localforage-1.4.3.tgz#a212543c39c7c76424edd12bf474c489aaca494c"
   dependencies:
     lie "3.0.2"
 
@@ -3210,11 +3209,11 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "http://registry.npm.taobao.org/punycode/download/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
-qs@6.2.0:
+qs@6.2.0, qs@^6.2.0:
   version "6.2.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
-qs@^6.2.0, qs@~6.3.0:
+qs@~6.3.0:
   version "6.3.1"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.3.1.tgz#918c0b3bcd36679772baf135b1acb4c1651ed79d"
 
