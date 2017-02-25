@@ -46,11 +46,15 @@
     "typescript": "2.0.10"
   },
   "cordovaPlugins": [
-    "cordova-plugin-whitelist",
-    "cordova-plugin-device",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-console",
     "ionic-plugin-keyboard",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    {
+      "locator": "https://github.com/squallliu/cordova-plugin-Immerse.git",
+      "id": "cordova-plugin-Immerse"
+    },
     {
       "locator": "https://github.com/squallliu/cordova-plugin-splashscreen.git",
       "id": "cordova-plugin-splashscreen"
@@ -62,7 +66,8 @@
       "locator": "https://github.com/squallliu/cordova-plugin-local-notifications.git",
       "id": "de.appplant.cordova.plugin.local-notification"
     },
-    "cordova-plugin-app-event"
+    "cordova-plugin-app-event",
+    "cordova-plugin-file-opener2"
   ],
   "cordovaPlatforms": [
     {
