@@ -11,6 +11,7 @@ import { InputsPage } from '../inputs/inputs';
 import { IconsPage } from '../icons/icons';
 import { NotificationProgressPage } from '../notification-progress/notification-progress';
 import { JsonStoragePage } from "../json-storage/json-storage";
+import { RibbonPage } from "../ribbon/ribbon";
 
 @Component({
   selector: 'page-home',
@@ -58,5 +59,9 @@ export class HomePage {
 
   jsonStorage() {
     this.navCtrl.push(JsonStoragePage);
+  }
+
+  ribbon() {
+    this.navCtrl.push(RibbonPage);
   }
 }
