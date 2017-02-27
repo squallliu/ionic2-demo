@@ -49,8 +49,8 @@
     <chcp>
         <config-file url="http://10.68.19.111:8080/app-update/chcp.json" />
         <native-interface version="1" />
-        <auto-download enabled="true" />
-        <auto-install enabled="true" />
+        <auto-download enabled="false" />
+        <auto-install enabled="false" />
     </chcp>
     <plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
     <plugin name="cordova-plugin-whitelist" spec="1.3.1" />
