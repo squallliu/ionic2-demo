@@ -14,8 +14,8 @@ import { FilterBarPage } from '../pages/filter-bar/filter-bar';
 import { InputsPage } from '../pages/inputs/inputs';
 import { IconsPage } from '../pages/icons/icons';
 import { NotificationProgressPage } from '../pages/notification-progress/notification-progress';
-import { JsonStoragePage } from "../pages/json-storage/json-storage";
-import { RibbonPage } from "../pages/ribbon/ribbon";
+import { JsonStoragePage } from '../pages/json-storage/json-storage';
+import { RibbonPage } from '../pages/ribbon/ribbon';
 
 const declarations: Array<any> = [
   MyApp,
