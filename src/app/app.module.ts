@@ -16,6 +16,7 @@ import { IconsPage } from '../pages/icons/icons';
 import { NotificationProgressPage } from '../pages/notification-progress/notification-progress';
 import { JsonStoragePage } from '../pages/json-storage/json-storage';
 import { RibbonPage } from '../pages/ribbon/ribbon';
+import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
 
 const declarations: Array<any> = [
   MyApp,
@@ -28,7 +29,8 @@ const declarations: Array<any> = [
   IconsPage,
   NotificationProgressPage,
   JsonStoragePage,
-  RibbonPage
+  RibbonPage,
+  ProgressBarPage
 ];
 
 @NgModule({

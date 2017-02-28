@@ -10,8 +10,9 @@ import { FilterBarPage } from '../filter-bar/filter-bar';
 import { InputsPage } from '../inputs/inputs';
 import { IconsPage } from '../icons/icons';
 import { NotificationProgressPage } from '../notification-progress/notification-progress';
-import { JsonStoragePage } from "../json-storage/json-storage";
-import { RibbonPage } from "../ribbon/ribbon";
+import { JsonStoragePage } from '../json-storage/json-storage';
+import { RibbonPage } from '../ribbon/ribbon';
+import { ProgressBarPage } from '../progress-bar/progress-bar';
 
 @Component({
   selector: 'page-home',
@@ -63,5 +64,9 @@ export class HomePage {
 
   ribbon() {
     this.navCtrl.push(RibbonPage);
+  }
+
+  progressBar() {
+    this.navCtrl.push(ProgressBarPage);
   }
 }
