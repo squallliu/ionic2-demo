@@ -14,7 +14,6 @@ export class ProgressBarPage implements OnInit {
     let me = this;
     var i = setInterval(function () {
       me.loadProgress++;
-      console.log(me.loadProgress);
       if (me.loadProgress == 100)
         clearInterval(i);
     }, 10);
