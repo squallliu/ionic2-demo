@@ -13,6 +13,7 @@ import { NotificationProgressPage } from '../notification-progress/notification-
 import { JsonStoragePage } from '../json-storage/json-storage';
 import { RibbonPage } from '../ribbon/ribbon';
 import { ProgressBarPage } from '../progress-bar/progress-bar';
+import { DownloadManagerPage } from '../download-manager/download-manager';
 
 @Component({
   selector: 'page-home',
@@ -68,5 +69,9 @@ export class HomePage {
 
   progressBar() {
     this.navCtrl.push(ProgressBarPage);
+  }
+
+  downloadManager() {
+    this.navCtrl.push(DownloadManagerPage);
   }
 }
