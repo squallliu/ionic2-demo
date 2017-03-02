@@ -12,7 +12,6 @@ import { IconsPage } from '../icons/icons';
 import { NotificationProgressPage } from '../notification-progress/notification-progress';
 import { JsonStoragePage } from '../json-storage/json-storage';
 import { RibbonPage } from '../ribbon/ribbon';
-import { ProgressBarPage } from '../progress-bar/progress-bar';
 import { DownloadManagerPage } from '../download-manager/download-manager';
 
 @Component({
@@ -65,10 +64,6 @@ export class HomePage {
 
   ribbon() {
     this.navCtrl.push(RibbonPage);
-  }
-
-  progressBar() {
-    this.navCtrl.push(ProgressBarPage);
   }
 
   downloadManager() {
