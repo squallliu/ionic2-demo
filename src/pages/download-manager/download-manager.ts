@@ -18,6 +18,10 @@ export class DownloadManagerPage {
       .catch(e => {
         console.log(e);
       });
+    this.onDownloadManager();
+  }
+
+  onDownloadManager() {
     this.navCtrl.push(DownloadManagerCmp);
   }
 }
