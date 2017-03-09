@@ -8,7 +8,6 @@ import { BaiduMapPage } from '../baidu-map/baidu-map';
 import { ImageLoaderPage } from '../image-loader/image-loader';
 import { FilterBarPage } from '../filter-bar/filter-bar';
 import { InputsPage } from '../inputs/inputs';
-import { IconsPage } from '../icons/icons';
 import { NotificationProgressPage } from '../notification-progress/notification-progress';
 import { JsonStoragePage } from '../json-storage/json-storage';
 import { RibbonPage } from '../ribbon/ribbon';
@@ -48,10 +47,6 @@ export class HomePage {
 
   inputs() {
     this.navCtrl.push(InputsPage);
-  }
-
-  icons() {
-    this.navCtrl.push(IconsPage);
   }
 
   notifiy() {

@@ -7,40 +7,34 @@
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
-    "ionic2-custom-icons": "ionic2-custom-icons",
-    "build:before": "ionic2-custom-icons",
-    "serve:before": "ionic2-custom-icons",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
   "config": {
-    "ionic_copy": "./config/copy.config.js",
-    "ionic_sass": "./config/sass.config.js",
-    "ionic_uglifyjs": "./config/uglifyjs.config.js",
-    "custom_icons": "./config/custom-icons.config.js"
+    "ionic_uglifyjs": "./config/uglifyjs.config.js"
   },
   "dependencies": {
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/compiler-cli": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/platform-server": "2.2.1",
-    "@ionic/storage": "1.1.9",
+    "@angular/common": "2.4.8",
+    "@angular/compiler": "2.4.8",
+    "@angular/compiler-cli": "2.4.8",
+    "@angular/core": "2.4.8",
+    "@angular/forms": "2.4.8",
+    "@angular/http": "2.4.8",
+    "@angular/platform-browser": "2.4.8",
+    "@angular/platform-browser-dynamic": "2.4.8",
+    "@angular/platform-server": "2.4.8",
+    "@ionic/storage": "2.0.0",
     "ext-ionic": "git+https://github.com/squallliu/ext-ionic.git",
-    "ionic-angular": "2.1.0",
+    "ionic-angular": "2.2.0",
     "ionic-native": "2.4.1",
-    "ionic2-custom-icons": "^0.3.1",
     "ionicons": "3.0.0",
-    "rxjs": "5.0.0-beta.12",
-    "sw-toolbox": "^3.4.0",
-    "zone.js": "0.6.26"
+    "rxjs": "5.0.1",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "0.7.2"
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.1.4",
+    "gulp": "^3.9.1",
     "gulp-imagemin": "^3.1.1",
     "imagemin-pngquant": "^5.0.0",
     "typescript": "2.0.10"
