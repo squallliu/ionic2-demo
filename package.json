@@ -26,7 +26,7 @@
     "@ionic/storage": "2.0.0",
     "ext-ionic": "git+https://github.com/squallliu/ext-ionic.git",
     "ionic-angular": "2.2.0",
-    "ionic-native": "2.4.1",
+    "ionic-native": "2.8.0",
     "ionicons": "3.0.0",
     "rxjs": "5.0.1",
     "sw-toolbox": "3.4.0",

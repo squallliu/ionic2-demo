@@ -2364,9 +2364,9 @@ ionic-angular@2.2.0:
   version "2.2.0"
   resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-2.2.0.tgz#5c48212d4c491626863ddce9292af0d3e6e2adca"
 
-ionic-native@2.4.1:
-  version "2.4.1"
-  resolved "http://registry.npm.taobao.org/ionic-native/download/ionic-native-2.4.1.tgz#79ecb9ae8db33d6f208bd5d08b181960020212c5"
+ionic-native@2.8.0:
+  version "2.8.0"
+  resolved "http://registry.npm.taobao.org/ionic-native/download/ionic-native-2.8.0.tgz#277991a013cef82b1714bf51aa6bfd685792d37a"
   dependencies:
     rxjs "5.0.0-beta.12"
 
@@ -3984,11 +3984,11 @@ semver-truncate@^1.0.0:
   dependencies:
     semver "^5.3.0"
 
-"semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", semver@^5.0.1, semver@^5.3.0, semver@~5.3.0:
+"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.3.0, semver@~5.3.0:
   version "5.3.0"
   resolved "http://registry.npm.taobao.org/semver/download/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
-semver@^4.0.3, semver@^4.1.0:
+"semver@2.x || 3.x || 4 || 5", semver@^4.0.3, semver@^4.1.0:
   version "4.3.6"
   resolved "http://registry.npm.taobao.org/semver/download/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
 
