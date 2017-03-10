@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { DownloadManagerController, DownloadOptions, DownloadManagerCmp, Dialog } from 'ext-ionic';
+import { DownloadManagerController, DownloadOptions, Dialog } from 'ext-ionic';
 
 @Component({
   selector: 'page-download-manager',
@@ -25,6 +25,6 @@ export class DownloadManagerPage {
   }
 
   onDownloadManager() {
-    this.navCtrl.push(DownloadManagerCmp);
+    this.downloadManagerCtrl.show(this.navCtrl);
   }
 }
