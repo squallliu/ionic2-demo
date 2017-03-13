@@ -2364,11 +2364,11 @@ ionic-angular@2.2.0:
   version "2.2.0"
   resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-2.2.0.tgz#5c48212d4c491626863ddce9292af0d3e6e2adca"
 
-ionic-native@2.8.0:
-  version "2.8.0"
-  resolved "http://registry.npm.taobao.org/ionic-native/download/ionic-native-2.8.0.tgz#277991a013cef82b1714bf51aa6bfd685792d37a"
+ionic-native@2.8.1:
+  version "2.8.1"
+  resolved "http://registry.npm.taobao.org/ionic-native/download/ionic-native-2.8.1.tgz#6e5b883933aa5878528a1b65f2ed75e697984646"
   dependencies:
-    rxjs "5.0.0-beta.12"
+    rxjs "5.0.1"
 
 ionicons@3.0.0:
   version "3.0.0"
@@ -3939,12 +3939,6 @@ rollup@0.41.4:
   resolved "http://registry.npm.taobao.org/rollup/download/rollup-0.41.4.tgz#a970580176329f9ead86854d7fd4c46de752aef8"
   dependencies:
     source-map-support "^0.4.0"
-
-rxjs@5.0.0-beta.12:
-  version "5.0.0-beta.12"
-  resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-5.0.0-beta.12.tgz#cdfde2d8c4639d20ae7794bff8fddf32da7ad337"
-  dependencies:
-    symbol-observable "^1.0.1"
 
 rxjs@5.0.1:
   version "5.0.1"
