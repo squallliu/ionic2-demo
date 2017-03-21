@@ -21,8 +21,8 @@ export class MyApp {
     platform.ready().then(() => {
       hotUpdater.start();
 
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
+      statusBar.styleDefault();
+      splashScreen.hide();
     });
   }
 }

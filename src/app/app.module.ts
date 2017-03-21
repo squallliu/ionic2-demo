@@ -50,9 +50,9 @@ const declarations: Array<any> = [
   bootstrap: [IonicApp],
   entryComponents: declarations,
   providers: [
-    { provide: ErrorHandler, useClass: IonicErrorHandler },
     StatusBar,
     SplashScreen,
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
     ListData
   ]
 })
