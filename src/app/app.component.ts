@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { Platform, Config } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 import { HotUpdater } from 'ext-ionic';
 
 import { HomePage } from '../pages/home/home';
@@ -11,12 +12,17 @@ import { HomePage } from '../pages/home/home';
 export class MyApp {
   rootPage = HomePage;
 
-  constructor(platform: Platform, config: Config, hotUpdater: HotUpdater) {
+  constructor(
+    private platform: Platform,
+    private statusBar: StatusBar,
+    private splashScreen: SplashScreen,
+    private hotUpdater: HotUpdater
+  ) {
     platform.ready().then(() => {
       hotUpdater.start();
 
-      StatusBar.styleDefault();
-      Splashscreen.hide();
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
     });
   }
 }

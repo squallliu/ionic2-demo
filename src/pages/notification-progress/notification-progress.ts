@@ -6,10 +6,10 @@ import { ExtLocalNotifications } from 'ext-ionic';
   templateUrl: 'notification-progress.html'
 })
 export class NotificationProgressPage {
-  constructor() { }
+  constructor(private localNotifications: ExtLocalNotifications) { }
 
   show() {
-    ExtLocalNotifications.schedule({
+    this.localNotifications.schedule({
       id: 1000,
       title: '正在下载...',
       progress: true,
@@ -19,7 +19,7 @@ export class NotificationProgressPage {
   }
 
   update() {
-    ExtLocalNotifications.update({
+    this.localNotifications.update({
       id: 1000,
       title: '正在下载...',
       progress: true,
@@ -29,6 +29,6 @@ export class NotificationProgressPage {
   }
 
   end() {
-    ExtLocalNotifications.clear(1000);
+    this.localNotifications.clear(1000);
   }
 }

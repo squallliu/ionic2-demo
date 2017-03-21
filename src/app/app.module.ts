@@ -1,5 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { ExtIonicModule } from 'ext-ionic';
 
@@ -47,6 +49,11 @@ const declarations: Array<any> = [
   ],
   bootstrap: [IonicApp],
   entryComponents: declarations,
-  providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }, ListData]
+  providers: [
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
+    StatusBar,
+    SplashScreen,
+    ListData
+  ]
 })
 export class AppModule { }
