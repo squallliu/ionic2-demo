@@ -1,6 +1,8 @@
 
 module.exports = {
   mangle: {
-    keep_fnames: true
+    except: [
+      'HomePage'
+    ]
   }
 };
