@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>slideTabs</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-slide-tabs [rootNavCtrl]="navCtrl" [selectedTabIndex]="1" height="100%" toolbarColor="light">
+    <ion-slide-tab [tabRoot]="page1" [navParams]="params" title="First page" icon="home"></ion-slide-tab>
+    <ion-slide-tab [tabRoot]="page2" [navParams]="params" title="Second page" icon="pin"></ion-slide-tab>
+    <ion-slide-tab [tabRoot]="page3" [navParams]="params" title="Third page" icon="heart"></ion-slide-tab>
+  </ion-slide-tabs>
+</ion-content>

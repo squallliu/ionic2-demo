@@ -12,6 +12,7 @@ import { NotificationProgressPage } from '../notification-progress/notification-
 import { JsonStoragePage } from '../json-storage/json-storage';
 import { RibbonPage } from '../ribbon/ribbon';
 import { DownloadManagerPage } from '../download-manager/download-manager';
+import { SlideTabsPage } from '../slide-tabs/slide-tabs';
 
 @Component({
   selector: 'page-home',
@@ -63,5 +64,9 @@ export class HomePage {
 
   downloadManager() {
     this.navCtrl.push(DownloadManagerPage);
+  }
+
+  slideTabs() {
+    this.navCtrl.push(SlideTabsPage);
   }
 }

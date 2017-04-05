@@ -82,9 +82,9 @@
   version "3.2.0"
   resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.2.0.tgz#92b224bc45f796b3841d555d880fca009df0a895"
 
-"@ionic/app-scripts@1.2.3":
-  version "1.2.3"
-  resolved "http://registry.npm.taobao.org/@ionic/app-scripts/download/@ionic/app-scripts-1.2.3.tgz#f3e8180479095c3d773106575e8f0bceb09ea549"
+"@ionic/app-scripts@1.2.5":
+  version "1.2.5"
+  resolved "http://registry.npm.taobao.org/@ionic/app-scripts/download/@ionic/app-scripts-1.2.5.tgz#a3144da40ae52f086ec8fe4a7a3b9e19798d12b5"
   dependencies:
     autoprefixer "6.7.2"
     babili "0.0.10"
@@ -312,10 +312,6 @@ async@^2.1.2:
   resolved "http://registry.npm.taobao.org/async/download/async-2.1.5.tgz#e587c68580994ac67fc56ff86d3ac56bdbe810bc"
   dependencies:
     lodash "^4.14.0"
-
-async@~0.2.6:
-  version "0.2.10"
-  resolved "http://registry.npm.taobao.org/async/download/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -4516,7 +4512,7 @@ typescript@2.0.10:
   version "2.0.10"
   resolved "http://registry.npm.taobao.org/typescript/download/typescript-2.0.10.tgz#ccdd4ed86fd5550a407101a0814012e1b3fac3dd"
 
-uglify-js@2.8.16:
+uglify-js@2.8.16, uglify-js@^2.7.5:
   version "2.8.16"
   resolved "http://registry.npm.taobao.org/uglify-js/download/uglify-js-2.8.16.tgz#d286190b6eefc6fd65eb0ecac6551e0b0e8839a4"
   dependencies:
@@ -4524,15 +4520,6 @@ uglify-js@2.8.16:
     yargs "~3.10.0"
   optionalDependencies:
     uglify-to-browserify "~1.0.0"
-
-uglify-js@^2.7.5:
-  version "2.7.5"
-  resolved "http://registry.npm.taobao.org/uglify-js/download/uglify-js-2.7.5.tgz#4612c0c7baaee2ba7c487de4904ae122079f2ca8"
-  dependencies:
-    async "~0.2.6"
-    source-map "~0.5.1"
-    uglify-to-browserify "~1.0.0"
-    yargs "~3.10.0"
 
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
