@@ -48,21 +48,21 @@
   version "3.4.4"
   resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-3.4.4.tgz#6d8b69fd7e3723354c71cc43a53c48010025c025"
 
-"@ionic-native/device@3.2.3":
-  version "3.2.3"
-  resolved "http://registry.npm.taobao.org/@ionic-native/device/download/@ionic-native/device-3.2.3.tgz#25dc3ea97bb8f8f21a68333d70f1cbc620216c02"
+"@ionic-native/device@3.4.4":
+  version "3.4.4"
+  resolved "http://registry.npm.taobao.org/@ionic-native/device/download/@ionic-native/device-3.4.4.tgz#1e519cf9769c65fe19f7f778451e4481fce1e60c"
 
-"@ionic-native/file-opener@3.2.3":
-  version "3.2.3"
-  resolved "http://registry.npm.taobao.org/@ionic-native/file-opener/download/@ionic-native/file-opener-3.2.3.tgz#655fd6f45f8a066440586b446e33d5e9d077dd86"
+"@ionic-native/file-opener@3.4.4":
+  version "3.4.4"
+  resolved "http://registry.npm.taobao.org/@ionic-native/file-opener/download/@ionic-native/file-opener-3.4.4.tgz#e9bae2832ebc125b5ba23c0871f919708339f1bc"
 
-"@ionic-native/file@3.2.3":
-  version "3.2.3"
-  resolved "http://registry.npm.taobao.org/@ionic-native/file/download/@ionic-native/file-3.2.3.tgz#8606ed9b69485e8511ae6a51e19713124d63c283"
+"@ionic-native/file@3.4.4":
+  version "3.4.4"
+  resolved "http://registry.npm.taobao.org/@ionic-native/file/download/@ionic-native/file-3.4.4.tgz#2357d44d4040b6a69aab10127c823a071ec6e65b"
 
-"@ionic-native/local-notifications@3.2.3":
-  version "3.2.3"
-  resolved "http://registry.npm.taobao.org/@ionic-native/local-notifications/download/@ionic-native/local-notifications-3.2.3.tgz#3d183c3d18cb25e88e81742f9d3d7566cbf15855"
+"@ionic-native/local-notifications@3.4.4":
+  version "3.4.4"
+  resolved "http://registry.npm.taobao.org/@ionic-native/local-notifications/download/@ionic-native/local-notifications-3.4.4.tgz#2fb890f97a3e249fb964b73b6a89cd7dd994781b"
 
 "@ionic-native/splash-screen@3.4.4":
   version "3.4.4"
@@ -72,9 +72,9 @@
   version "3.4.4"
   resolved "http://registry.npm.taobao.org/@ionic-native/status-bar/download/@ionic-native/status-bar-3.4.4.tgz#78eb4d4ee2d51e25ca94dbe9974047f588f57ec1"
 
-"@ionic-native/transfer@3.2.3":
-  version "3.2.3"
-  resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.2.3.tgz#5e4e928a1ced45d601f0ce267f63106c49ddec2d"
+"@ionic-native/transfer@3.4.4":
+  version "3.4.4"
+  resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.4.4.tgz#9d7a05c7d86ffce9e92345cbab11353e362ffb34"
 
 "@ionic/app-scripts@1.3.0":
   version "1.3.0"
@@ -1598,16 +1598,16 @@ express@4.14.1:
     vary "~1.1.0"
 
 "ext-ionic@git+https://github.com/squallliu/ext-ionic.git":
-  version "1.2.2"
-  resolved "git+https://github.com/squallliu/ext-ionic.git#f25d3d65995e352a6f8411ef26c4d8092466227e"
+  version "1.3.0"
+  resolved "git+https://github.com/squallliu/ext-ionic.git#3cb9c9e006faa1e332aa489c3223bfe8b276aac0"
   dependencies:
-    "@ionic-native/device" "3.2.3"
-    "@ionic-native/file" "3.2.3"
-    "@ionic-native/file-opener" "3.2.3"
-    "@ionic-native/local-notifications" "3.2.3"
-    "@ionic-native/transfer" "3.2.3"
+    "@ionic-native/device" "3.4.4"
+    "@ionic-native/file" "3.4.4"
+    "@ionic-native/file-opener" "3.4.4"
+    "@ionic-native/local-notifications" "3.4.4"
+    "@ionic-native/transfer" "3.4.4"
     "@types/hammerjs" "^2.0.34"
-    "@types/lodash" ts2.0
+    "@types/lodash" "^4.14.61"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
