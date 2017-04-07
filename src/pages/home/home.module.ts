@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { OpenUrlModalModule } from 'ext-ionic';
 
 import { HomePage } from './home';
 
@@ -9,7 +8,6 @@ import { HomePage } from './home';
     HomePage
   ],
   imports: [
-    OpenUrlModalModule.forRoot(),
     IonicPageModule.forChild(HomePage)
   ],
   entryComponents: [
