@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 
 import { ListData } from '../../providers/list-data';
+import { IonicPage } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-alpha-scroll',
   templateUrl: 'alpha-scroll.html'

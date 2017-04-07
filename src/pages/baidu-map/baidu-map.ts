@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 
 import { BaiduMapOptions, GpsPoint } from 'ext-ionic';
+import { IonicPage } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-baidu-map',
   templateUrl: 'baidu-map.html'

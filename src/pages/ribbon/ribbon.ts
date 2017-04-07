@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { NavParams } from 'ionic-angular';
+import { NavParams, IonicPage } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-ribbon',
   templateUrl: 'ribbon.html'
@@ -14,5 +15,4 @@ export class RibbonPage {
   ionViewDidLoad() {
     this.fromTabs = this.navParams.get('fromTabs');
   }
-
 }

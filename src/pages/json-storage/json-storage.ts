@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { JsonFileStorage, isPresent } from "ext-ionic";
+import { IonicPage } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-json-storage',
   templateUrl: 'json-storage.html'
@@ -19,14 +21,10 @@ export class JsonStoragePage {
       console.log('输入的字符串必须是json格式');
       return;
     }
-    this.jsonStorage.save('json', obj).then(success => {
-      if (success) {
-        return this.jsonStorage.load('json');
-      }
+    this.jsonStorage.save('json', obj).then(() => {
+      return this.jsonStorage.load('json');
     }).then(o => {
-      if (isPresent(o)) {
-        this.storage.jsonObj = o;
-      }
+      this.storage.jsonObj = o;
     });
   }
 
