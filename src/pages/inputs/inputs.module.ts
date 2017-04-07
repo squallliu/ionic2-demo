@@ -9,7 +9,7 @@ import { InputsPage } from './inputs';
     InputsPage
   ],
   imports: [
-    StarRatingModule,
+    StarRatingModule.forRoot(),
     IonicPageModule.forChild(InputsPage)
   ],
   entryComponents: [

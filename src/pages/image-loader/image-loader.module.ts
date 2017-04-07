@@ -9,7 +9,7 @@ import { ImageLoaderPage } from './image-loader';
     ImageLoaderPage
   ],
   imports: [
-    ImageLoaderModule,
+    ImageLoaderModule.forRoot(),
     IonicPageModule.forChild(ImageLoaderPage)
   ],
   entryComponents: [

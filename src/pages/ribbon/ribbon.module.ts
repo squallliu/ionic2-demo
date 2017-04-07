@@ -9,7 +9,7 @@ import { RibbonPage } from './ribbon';
     RibbonPage
   ],
   imports: [
-    RibbonModule,
+    RibbonModule.forRoot(),
     IonicPageModule.forChild(RibbonPage)
   ],
   entryComponents: [

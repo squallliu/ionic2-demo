@@ -9,7 +9,7 @@ import { SlideTabsPage } from './slide-tabs';
     SlideTabsPage
   ],
   imports: [
-    TabsModule,
+    TabsModule.forRoot(),
     IonicPageModule.forChild(SlideTabsPage)
   ],
   entryComponents: [

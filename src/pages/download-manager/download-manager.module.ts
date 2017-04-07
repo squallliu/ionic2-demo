@@ -9,7 +9,7 @@ import { DownloadManagerPage } from './download-manager';
     DownloadManagerPage
   ],
   imports: [
-    DownloadManagerModule,
+    DownloadManagerModule.forRoot(),
     IonicPageModule.forChild(DownloadManagerPage)
   ],
   entryComponents: [

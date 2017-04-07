@@ -9,7 +9,7 @@ import { AlphaScrollPage } from './alpha-scroll';
     AlphaScrollPage
   ],
   imports: [
-    AlphaScrollModule,
+    AlphaScrollModule.forRoot(),
     IonicPageModule.forChild(AlphaScrollPage)
   ],
   entryComponents: [

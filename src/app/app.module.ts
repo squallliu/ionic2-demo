@@ -8,11 +8,9 @@ import { ExtIonicModule } from 'ext-ionic';
 
 import { ListData } from '../providers/list-data';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 
 const declarations: Array<any> = [
-  MyApp,
-  HomePage
+  MyApp
 ];
 
 @NgModule({

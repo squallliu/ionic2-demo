@@ -9,7 +9,7 @@ import { BaiduMapPage } from './baidu-map';
     BaiduMapPage
   ],
   imports: [
-    BaiduMapModule,
+    BaiduMapModule.forRoot(),
     IonicPageModule.forChild(BaiduMapPage)
   ],
   entryComponents: [
