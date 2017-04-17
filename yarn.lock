@@ -76,9 +76,9 @@
   version "3.4.4"
   resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.4.4.tgz#9d7a05c7d86ffce9e92345cbab11353e362ffb34"
 
-"@ionic/app-scripts@1.3.2":
-  version "1.3.2"
-  resolved "http://registry.npm.taobao.org/@ionic/app-scripts/download/@ionic/app-scripts-1.3.2.tgz#9ee1b341855639cb3eb4f34d386c696f6bc21c6e"
+"@ionic/app-scripts@1.3.3":
+  version "1.3.3"
+  resolved "http://registry.npm.taobao.org/@ionic/app-scripts/download/@ionic/app-scripts-1.3.3.tgz#006746b8068a43e43eb63328b86d95e32f2fde6c"
   dependencies:
     autoprefixer "6.7.2"
     babili "0.0.10"
@@ -3318,13 +3318,7 @@ on-finished@~2.3.0:
   dependencies:
     ee-first "1.1.1"
 
-once@^1.3.0, once@^1.3.3:
-  version "1.4.0"
-  resolved "http://registry.npm.taobao.org/once/download/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
-  dependencies:
-    wrappy "1"
-
-once@~1.3.0:
+once@^1.3.0, once@^1.3.3, once@~1.3.0:
   version "1.3.3"
   resolved "http://registry.npm.taobao.org/once/download/once-1.3.3.tgz#b2e261557ce4c314ec8304f3fa82663e4297ca20"
   dependencies:
@@ -3651,11 +3645,11 @@ q@^1.1.2:
   version "1.5.0"
   resolved "http://registry.npm.taobao.org/q/download/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
 
-qs@6.2.0:
+qs@6.2.0, qs@^6.2.0:
   version "6.2.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
-qs@^6.2.0, qs@~6.4.0:
+qs@~6.4.0:
   version "6.4.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
