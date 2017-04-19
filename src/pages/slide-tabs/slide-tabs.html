@@ -5,9 +5,9 @@
 </ion-header>
 
 <ion-content>
-  <ion-slide-tabs [rootNavCtrl]="navCtrl" [selectedTabIndex]="1" height="100%" toolbarColor="light">
-    <ion-slide-tab [tabRoot]="page1" [navParams]="params" title="First page" icon="home"></ion-slide-tab>
-    <ion-slide-tab [tabRoot]="page2" [navParams]="params" title="Second page" icon="pin"></ion-slide-tab>
-    <ion-slide-tab [tabRoot]="page3" [navParams]="params" title="Third page" icon="heart"></ion-slide-tab>
-  </ion-slide-tabs>
+  <ion-super-tabs toolbarBackground="light" badgeColor="danger">
+    <ion-super-tab [root]="page1" [rootParams]="params" title="First page" icon="home"></ion-super-tab>
+    <ion-super-tab [root]="page2" [rootParams]="params" title="Second page" icon="pin"></ion-super-tab>
+    <ion-super-tab [root]="page3" badge="2" [rootParams]="params" title="Third page" icon="heart"></ion-super-tab>
+  </ion-super-tabs>
 </ion-content>

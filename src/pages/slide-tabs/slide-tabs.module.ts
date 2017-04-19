@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { SlideTabsModule } from 'ext-ionic';
+import { SuperTabsModule } from 'ext-ionic';
 
 import { SlideTabsPage } from './slide-tabs';
 
@@ -9,7 +9,7 @@ import { SlideTabsPage } from './slide-tabs';
     SlideTabsPage
   ],
   imports: [
-    SlideTabsModule.forRoot(),
+    SuperTabsModule.forRoot(),
     IonicPageModule.forChild(SlideTabsPage)
   ],
   entryComponents: [
