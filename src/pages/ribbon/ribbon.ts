@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavParams, IonicPage } from 'ionic-angular';
+import { NavParams, IonicPage, App } from 'ionic-angular';
 
 @IonicPage()
 @Component({
@@ -9,7 +9,11 @@ import { NavParams, IonicPage } from 'ionic-angular';
 export class RibbonPage {
   fromTabs: boolean;
 
-  constructor(private navParams: NavParams) {
+  constructor(public appCtrl: App, private navParams: NavParams) {
+  }
+
+  test() {
+    this.appCtrl.getRootNav().push('FilterBarPage');
   }
 
   ionViewDidLoad() {

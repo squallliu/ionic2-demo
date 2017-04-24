@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, IonicPage } from 'ionic-angular';
+import { NavController, IonicPage, NavParams } from 'ionic-angular';
 
 import { OpenUrlModalController } from 'ext-ionic';
 
@@ -9,8 +9,15 @@ import { OpenUrlModalController } from 'ext-ionic';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  constructor(private openUrlCtrl: OpenUrlModalController, private navCtrl: NavController) {
+  fromTabs: boolean;
+
+  constructor(private openUrlCtrl: OpenUrlModalController, private navCtrl: NavController, private navParams: NavParams) {
   }
+
+  ionViewDidLoad() {
+    this.fromTabs = this.navParams.get('fromTabs');
+  }
+
 
   openExternalUrl() {
     this.openUrlCtrl.open({
