@@ -4,6 +4,7 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+  <ion-searchbar (input)="filter($event)" [hidden]="!fromTabs"></ion-searchbar>
   <ion-list>
     <ion-item *ngFor="let item of items">
       <h2>{{item.name}}</h2>
