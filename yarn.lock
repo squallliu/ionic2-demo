@@ -48,21 +48,21 @@
   version "3.5.0"
   resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-3.5.0.tgz#6a167eb287b0aff3f9a998df6dcd5d1d41b3c0e5"
 
-"@ionic-native/device@3.4.4":
-  version "3.4.4"
-  resolved "http://registry.npm.taobao.org/@ionic-native/device/download/@ionic-native/device-3.4.4.tgz#1e519cf9769c65fe19f7f778451e4481fce1e60c"
+"@ionic-native/device@3.5.0":
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/device/download/@ionic-native/device-3.5.0.tgz#d24b86b15592d7ec3e55525962cf17a928818ebc"
 
-"@ionic-native/file-opener@3.4.4":
-  version "3.4.4"
-  resolved "http://registry.npm.taobao.org/@ionic-native/file-opener/download/@ionic-native/file-opener-3.4.4.tgz#e9bae2832ebc125b5ba23c0871f919708339f1bc"
+"@ionic-native/file-opener@3.5.0":
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/file-opener/download/@ionic-native/file-opener-3.5.0.tgz#758773b5c2403b4c5b78988aec6ed0e4136c52cc"
 
-"@ionic-native/file@3.4.4":
-  version "3.4.4"
-  resolved "http://registry.npm.taobao.org/@ionic-native/file/download/@ionic-native/file-3.4.4.tgz#2357d44d4040b6a69aab10127c823a071ec6e65b"
+"@ionic-native/file@3.5.0":
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/file/download/@ionic-native/file-3.5.0.tgz#154c83b50755d3558e1782811e82688de304daf6"
 
-"@ionic-native/local-notifications@3.4.4":
-  version "3.4.4"
-  resolved "http://registry.npm.taobao.org/@ionic-native/local-notifications/download/@ionic-native/local-notifications-3.4.4.tgz#2fb890f97a3e249fb964b73b6a89cd7dd994781b"
+"@ionic-native/local-notifications@3.5.0":
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/local-notifications/download/@ionic-native/local-notifications-3.5.0.tgz#aa7a756cb477fbef5888694b181ffc5d58c72e3e"
 
 "@ionic-native/splash-screen@3.5.0":
   version "3.5.0"
@@ -72,9 +72,9 @@
   version "3.5.0"
   resolved "http://registry.npm.taobao.org/@ionic-native/status-bar/download/@ionic-native/status-bar-3.5.0.tgz#c71551acfb62b8db1cba519fd53cfbd93ff43ebe"
 
-"@ionic-native/transfer@3.4.4":
-  version "3.4.4"
-  resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.4.4.tgz#9d7a05c7d86ffce9e92345cbab11353e362ffb34"
+"@ionic-native/transfer@3.5.0":
+  version "3.5.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.5.0.tgz#c9a026edcaec4e74b2a80c1e9017ee7a3c70c948"
 
 "@ionic/app-scripts@1.3.1":
   version "1.3.1"
@@ -127,8 +127,8 @@
   resolved "http://registry.npm.taobao.org/@types/localforage/download/@types/localforage-0.0.30.tgz#3d60a6bf6dda38e3f8a469611598379f1f649509"
 
 "@types/lodash@^4.14.61":
-  version "4.14.62"
-  resolved "http://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.62.tgz#8674f9861582148a60b7a89cb260f11378d11683"
+  version "4.14.63"
+  resolved "http://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.63.tgz#5ac475f55bfdc62bc88c4239dbc482f2f3bead93"
 
 abbrev@1:
   version "1.1.0"
@@ -1598,14 +1598,14 @@ express@4.14.1:
     vary "~1.1.0"
 
 "ext-ionic@git+https://github.com/squallliu/ext-ionic.git":
-  version "1.3.5"
-  resolved "git+https://github.com/squallliu/ext-ionic.git#05ef540ba81f56f8f214c9f08f98d51b572c4bdd"
+  version "1.3.6"
+  resolved "git+https://github.com/squallliu/ext-ionic.git#86861bf8c6dc439c2c73a64bb8e9df97b096adab"
   dependencies:
-    "@ionic-native/device" "3.4.4"
-    "@ionic-native/file" "3.4.4"
-    "@ionic-native/file-opener" "3.4.4"
-    "@ionic-native/local-notifications" "3.4.4"
-    "@ionic-native/transfer" "3.4.4"
+    "@ionic-native/device" "3.5.0"
+    "@ionic-native/file" "3.5.0"
+    "@ionic-native/file-opener" "3.5.0"
+    "@ionic-native/local-notifications" "3.5.0"
+    "@ionic-native/transfer" "3.5.0"
     "@types/hammerjs" "^2.0.34"
     "@types/lodash" "^4.14.61"
 
