@@ -21,15 +21,15 @@ export class JsonStoragePage {
       console.log('输入的字符串必须是json格式');
       return;
     }
-    this.jsonStorage.save('json', obj).then(() => {
-      return this.jsonStorage.load('json');
+    this.jsonStorage.save({ filename: 'json', content: obj }).then(() => {
+      return this.jsonStorage.load({ filename: 'json' });
     }).then(o => {
       this.storage.jsonObj = o;
     });
   }
 
   delete() {
-    this.jsonStorage.remove('json').then(_ => {
+    this.jsonStorage.remove({ filename: 'json' }).then(_ => {
       this.storage.jsonObj = {};
     });
   }
