@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { ExtLocalNotifications } from 'ext-ionic';
-import { IonicPage } from 'ionic-angular';
 
-@IonicPage()
 @Component({
   selector: 'page-notification-progress',
   templateUrl: 'notification-progress.html'

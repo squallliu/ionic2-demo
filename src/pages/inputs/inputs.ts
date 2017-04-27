@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { NavParams, IonicPage } from 'ionic-angular';
+import { NavParams } from 'ionic-angular';
 
-@IonicPage()
 @Component({
   selector: 'page-inputs',
   templateUrl: 'inputs.html'

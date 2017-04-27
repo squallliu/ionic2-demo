@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { NavParams, IonicPage } from 'ionic-angular';
+import { NavParams } from 'ionic-angular';
 
 import { ListData } from '../../providers/list-data';
 
-@IonicPage()
 @Component({
   selector: 'page-filter-bar',
   templateUrl: 'filter-bar.html'
