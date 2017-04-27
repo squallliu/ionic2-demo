@@ -5,7 +5,7 @@ export class ListData {
   private items: Array<any> = [];
 
   constructor() {
-    let str: string = "ABCJLDEFGOQRHINSXY";
+    let str: string = 'ABCJLDEFGOQRHINSXY';
     for (let i: number = 0; i < str.length; i++) {
       let nextChar: string = str.charAt(i);
       for (let j: number = 0; j < 3; j++) {
