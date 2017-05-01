@@ -2382,9 +2382,9 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/invert-kv/download/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ionic-angular@3.1.0:
-  version "3.1.0"
-  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.1.0.tgz#bcfbbf30971c7f07738e27710cea4165e2e08331"
+ionic-angular@3.1.1:
+  version "3.1.1"
+  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.1.1.tgz#84a2765a5640713049a5dd9f454098987f5d52ae"
 
 ionicons@3.0.0:
   version "3.0.0"
