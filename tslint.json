@@ -2,8 +2,7 @@
   "extends": "tslint-ionic-rules",
   "rules": {
     "eofline": false,
-    "no-duplicate-variable": true,
-    "no-unused-variable": [
+    "no-consecutive-blank-lines": [
       true
     ]
   }
