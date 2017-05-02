@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavParams, App } from 'ionic-angular';
+import { FilterBarPage } from '../filter-bar/filter-bar';
 
 @Component({
   selector: 'page-ribbon',
@@ -12,7 +13,7 @@ export class RibbonPage {
   }
 
   test() {
-    this.appCtrl.getRootNav().push('FilterBarPage');
+    this.appCtrl.getRootNav().push(FilterBarPage);
   }
 
   ionViewDidLoad() {
