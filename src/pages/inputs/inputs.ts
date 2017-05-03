@@ -8,6 +8,7 @@ import { NavParams } from 'ionic-angular';
 export class InputsPage {
   fromTabs: boolean;
   starLevel: number = 4.5;
+  dateTime: number = Date.now();
 
   constructor(private navParams: NavParams) {
   }
