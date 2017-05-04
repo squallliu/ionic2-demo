@@ -12,13 +12,13 @@ export class NavButtonPage {
   navButtons: Array<NavButton> = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: BaiduMapPage });
     this.navButtons.push({ icon: 'bookmarks', label: '测试', page: BaiduMapPage });
     this.navButtons.push({ icon: 'bookmarks', label: '测试', page: BaiduMapPage });
     this.navButtons.push({ icon: 'bookmarks', label: '测试', page: BaiduMapPage });
   }
 
   click(item: NavButton) {
-    this.navCtrl.push(BaiduMapPage);
+    this.navCtrl.push(item.page);
   }
 }
