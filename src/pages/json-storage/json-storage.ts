@@ -19,11 +19,13 @@ export class JsonStoragePage {
       console.log('输入的字符串必须是json格式');
       return;
     }
-    this.jsonStorage.save({ filename: 'json', content: obj }).then(() => {
-      return this.jsonStorage.load({ filename: 'json' });
-    }).then(o => {
+    this.jsonStorage.save({ filename: 'json', content: obj }).catch(e => console.log(e));
+  }
+
+  read() {
+    this.jsonStorage.load({ filename: 'json', maxAge: 5000 }).then(o => {
       this.storage.jsonObj = o;
-    });
+    }).catch(e => console.log(e));
   }
 
   delete() {
