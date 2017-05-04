@@ -12,6 +12,7 @@ import { JsonStoragePage } from '../json-storage/json-storage';
 import { RibbonPage } from '../ribbon/ribbon';
 import { DownloadManagerPage } from '../download-manager/download-manager';
 import { SlideTabsPage } from '../slide-tabs/slide-tabs';
+import { NavButtonPage } from '../nav-button/nav-button';
 
 @Component({
   selector: 'page-home',
@@ -66,5 +67,9 @@ export class HomePage {
 
   slideTabs() {
     this.navCtrl.push(SlideTabsPage);
+  }
+
+  navButton() {
+    this.navCtrl.push(NavButtonPage);
   }
 }
