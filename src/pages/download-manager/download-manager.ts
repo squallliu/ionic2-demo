@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, IonicPage } from 'ionic-angular';
 import { DownloadManagerController, DownloadOptions, Dialog } from 'ext-ionic';
 
+@IonicPage()
 @Component({
     selector: 'page-download-manager',
     templateUrl: 'download-manager.html'

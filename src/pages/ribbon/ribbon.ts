@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavParams, App } from 'ionic-angular';
+import { NavParams, App, IonicPage } from 'ionic-angular';
 import { FilterBarPage } from '../filter-bar/filter-bar';
 
+@IonicPage()
 @Component({
   selector: 'page-ribbon',
   templateUrl: 'ribbon.html'

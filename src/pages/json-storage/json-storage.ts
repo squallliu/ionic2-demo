@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { JsonFileStorage, isPresent } from 'ext-ionic';
+import { IonicPage } from 'ionic-angular';
 
+@IonicPage()
 @Component({
   selector: 'page-json-storage',
   templateUrl: 'json-storage.html'
