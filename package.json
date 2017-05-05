@@ -25,7 +25,7 @@
     "@ionic/storage": "2.0.1",
     "cordova-android": "^6.2.2",
     "cordova-plugin-Immerse": "git+https://github.com/squallliu/cordova-plugin-Immerse.git",
-    "cordova-plugin-app-event": "1.2.0",
+    "cordova-plugin-app-event": "^1.2.0",
     "cordova-plugin-compat": "^1.1.0",
     "cordova-plugin-console": "^1.0.7",
     "cordova-plugin-device": "^1.1.6",
