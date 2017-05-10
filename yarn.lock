@@ -2,45 +2,45 @@
 # yarn lockfile v1
 
 
-"@angular/common@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/common/download/@angular/common-4.0.2.tgz#092b272f193d3ac9549b53792657e48e96f39f5d"
+"@angular/common@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/common/download/@angular/common-4.1.0.tgz#4370f569e51ddd99963b7f4aa58c1a5dcc5fea52"
 
-"@angular/compiler-cli@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/compiler-cli/download/@angular/compiler-cli-4.0.2.tgz#007c05728c836be15f99530e45effa1cd7c96284"
+"@angular/compiler-cli@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/compiler-cli/download/@angular/compiler-cli-4.1.0.tgz#727aaada8bfd94285e9818995925048f7fdf1200"
   dependencies:
-    "@angular/tsc-wrapped" "4.0.2"
+    "@angular/tsc-wrapped" "4.1.0"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
 
-"@angular/compiler@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/compiler/download/@angular/compiler-4.0.2.tgz#729e0ead261232698678bbdd09d3d360dcd6f889"
+"@angular/compiler@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/compiler/download/@angular/compiler-4.1.0.tgz#be1ade5b6aec81f03c29d52bcb95925a28900dcb"
 
-"@angular/core@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/core/download/@angular/core-4.0.2.tgz#195153f8623b59f07c30b3b8954e14842c3959c3"
+"@angular/core@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/core/download/@angular/core-4.1.0.tgz#72ec173316879571880c9c483ed6dfc0caab94b0"
 
-"@angular/forms@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/forms/download/@angular/forms-4.0.2.tgz#9094f46983298681bbaf0dcc17dcf8f7be6f35a3"
+"@angular/forms@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/forms/download/@angular/forms-4.1.0.tgz#8eae2a45c4ba064b377f9280e59c012b5dac6b80"
 
-"@angular/http@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/http/download/@angular/http-4.0.2.tgz#8c61b9ff52748c5dcb52b57046829d34d66662ec"
+"@angular/http@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/http/download/@angular/http-4.1.0.tgz#7ba0c4d044dee964021b7cf19cb146a2c31577a5"
 
-"@angular/platform-browser-dynamic@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-4.0.2.tgz#5a26f9a3e9f7eaf3cc7c02836cfae2e88cf1862f"
+"@angular/platform-browser-dynamic@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-4.1.0.tgz#0250d82d4abd36be60bb31fc7448ac6e28036690"
 
-"@angular/platform-browser@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/platform-browser/download/@angular/platform-browser-4.0.2.tgz#bce01526917a5b49606fc7e81600af85b15846ea"
+"@angular/platform-browser@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/platform-browser/download/@angular/platform-browser-4.1.0.tgz#b981386be1a36f2af7f0679447fd97b7267b25de"
 
-"@angular/tsc-wrapped@4.0.2":
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/@angular/tsc-wrapped/download/@angular/tsc-wrapped-4.0.2.tgz#38f584082897946b011d293ce662e0178d07ac41"
+"@angular/tsc-wrapped@4.1.0":
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/@angular/tsc-wrapped/download/@angular/tsc-wrapped-4.1.0.tgz#07cbd61d91adde4c2daf9a41605152952b8832b3"
   dependencies:
     tsickle "^0.21.0"
 
@@ -2707,9 +2707,9 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/invert-kv/download/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ionic-angular@3.1.1:
-  version "3.1.1"
-  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.1.1.tgz#84a2765a5640713049a5dd9f454098987f5d52ae"
+ionic-angular@3.2.0:
+  version "3.2.0"
+  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.2.0.tgz#ef47f6696a2410a776dbf7339762079b7963cd94"
 
 ionic-plugin-keyboard@^2.2.1:
   version "2.2.1"
@@ -4921,9 +4921,9 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-sw-toolbox@3.4.0:
-  version "3.4.0"
-  resolved "http://registry.npm.taobao.org/sw-toolbox/download/sw-toolbox-3.4.0.tgz#a16efecf4a79ed32191cf1923525f2ee89bc76dc"
+sw-toolbox@3.6.0:
+  version "3.6.0"
+  resolved "http://registry.npm.taobao.org/sw-toolbox/download/sw-toolbox-3.6.0.tgz#26df1d1c70348658e4dea2884319149b7b3183b5"
   dependencies:
     path-to-regexp "^1.0.1"
     serviceworker-cache-polyfill "^4.0.0"
