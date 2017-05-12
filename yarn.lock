@@ -44,9 +44,9 @@
   dependencies:
     tsickle "^0.21.0"
 
-"@ionic-native/core@3.6.1":
-  version "3.6.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-3.6.1.tgz#fb0dd23f611dbb33ae9bf54c897c46343968aab6"
+"@ionic-native/core@3.7.0":
+  version "3.7.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-3.7.0.tgz#951e7580f5a8a9b5811c0e443634fd91b034ed47"
 
 "@ionic-native/device@3.6.1":
   version "3.6.1"
@@ -64,13 +64,13 @@
   version "3.6.1"
   resolved "http://registry.npm.taobao.org/@ionic-native/local-notifications/download/@ionic-native/local-notifications-3.6.1.tgz#fa93da75e0ee2b03316794dd6de48cb7f7615f7a"
 
-"@ionic-native/splash-screen@3.6.1":
-  version "3.6.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/splash-screen/download/@ionic-native/splash-screen-3.6.1.tgz#bfbd1debfab35872e224fc11a148113a0854148f"
+"@ionic-native/splash-screen@3.7.0":
+  version "3.7.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/splash-screen/download/@ionic-native/splash-screen-3.7.0.tgz#56fa03cea4867887b68a230cdff33e99a82c6dcf"
 
-"@ionic-native/status-bar@3.6.1":
-  version "3.6.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/status-bar/download/@ionic-native/status-bar-3.6.1.tgz#7ad7e3c91eaa7ef1385514b14c5a07c0ca8d5785"
+"@ionic-native/status-bar@3.7.0":
+  version "3.7.0"
+  resolved "http://registry.npm.taobao.org/@ionic-native/status-bar/download/@ionic-native/status-bar-3.7.0.tgz#5f99be434b4f361d52f609d2b7942c27eb94b5ea"
 
 "@ionic-native/transfer@3.6.1":
   version "3.6.1"
