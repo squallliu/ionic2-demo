@@ -2707,9 +2707,9 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/invert-kv/download/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ionic-angular@3.2.0:
-  version "3.2.0"
-  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.2.0.tgz#ef47f6696a2410a776dbf7339762079b7963cd94"
+ionic-angular@3.2.1:
+  version "3.2.1"
+  resolved "http://registry.npm.taobao.org/ionic-angular/download/ionic-angular-3.2.1.tgz#fe99682204788e42a4608807081465052490c873"
 
 ionic-plugin-keyboard@^2.2.1:
   version "2.2.1"
