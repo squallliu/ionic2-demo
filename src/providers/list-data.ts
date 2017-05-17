@@ -25,6 +25,7 @@ export class ListData {
   }
 
   filter(searchTerm): Promise<Array<any>> {
+    searchTerm = searchTerm || '';
     return new Promise<Array<any>>(resolve => {
       resolve(this.items.filter((item) => {
         return item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) > -1;
