@@ -50,19 +50,19 @@
 
 "@ionic-native/device@3.8.1":
   version "3.8.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/device/download/@ionic-native/device-3.8.1.tgz#6086ea7f8a0a1452d924e4b4f1ee5e0e4c86e88a"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/device/-/device-3.8.1.tgz#6086ea7f8a0a1452d924e4b4f1ee5e0e4c86e88a"
 
 "@ionic-native/file-opener@3.8.1":
   version "3.8.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/file-opener/download/@ionic-native/file-opener-3.8.1.tgz#49f1fcc79f15693afd2c032fd4a0d6fc253ac45b"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file-opener/-/file-opener-3.8.1.tgz#49f1fcc79f15693afd2c032fd4a0d6fc253ac45b"
 
 "@ionic-native/file@3.8.1":
   version "3.8.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/file/download/@ionic-native/file-3.8.1.tgz#906dd8d465c1dc16cbb3818f4a971a79ff47721a"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file/-/file-3.8.1.tgz#906dd8d465c1dc16cbb3818f4a971a79ff47721a"
 
 "@ionic-native/local-notifications@3.8.1":
   version "3.8.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/local-notifications/download/@ionic-native/local-notifications-3.8.1.tgz#6bc681ae8b2bb7fc6e88ccf2019ac90d72ec7efa"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/local-notifications/-/local-notifications-3.8.1.tgz#6bc681ae8b2bb7fc6e88ccf2019ac90d72ec7efa"
 
 "@ionic-native/splash-screen@3.8.1":
   version "3.8.1"
@@ -74,7 +74,7 @@
 
 "@ionic-native/transfer@3.8.1":
   version "3.8.1"
-  resolved "http://registry.npm.taobao.org/@ionic-native/transfer/download/@ionic-native/transfer-3.8.1.tgz#8ed5a9d92fae61d432b1cc8e6c634606e6759052"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/transfer/-/transfer-3.8.1.tgz#8ed5a9d92fae61d432b1cc8e6c634606e6759052"
 
 "@ionic/app-scripts@1.3.7":
   version "1.3.7"
@@ -155,7 +155,7 @@
 
 "@types/hammerjs@^2.0.34":
   version "2.0.34"
-  resolved "http://registry.npm.taobao.org/@types/hammerjs/download/@types/hammerjs-2.0.34.tgz#9cbac4f41cb039436141785e1be50b3ab10a04a9"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@types/hammerjs/-/hammerjs-2.0.34.tgz#9cbac4f41cb039436141785e1be50b3ab10a04a9"
 
 "@types/localforage@0.0.30":
   version "0.0.30"
@@ -163,7 +163,7 @@
 
 "@types/lodash@^4.14.61":
   version "4.14.64"
-  resolved "http://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.64.tgz#979cf3a3d4a368670840bf9b3e448dc33ffe84ee"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@types/lodash/-/lodash-4.14.64.tgz#979cf3a3d4a368670840bf9b3e448dc33ffe84ee"
 
 abbrev@1:
   version "1.1.0"
@@ -1887,9 +1887,9 @@ express@4.14.1:
     utils-merge "1.0.0"
     vary "~1.1.0"
 
-"ext-ionic@git+https://github.com/squallliu/ext-ionic.git":
-  version "1.4.4"
-  resolved "git+https://github.com/squallliu/ext-ionic.git#aba48d110edce04f559dd56d7a0431fd9beb6a35"
+ext-ionic@^1.4.6:
+  version "1.4.6"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.4.6.tgz#e1021945eb25574baf77a920c97c179a6bf54578"
   dependencies:
     "@ionic-native/device" "3.8.1"
     "@ionic-native/file" "3.8.1"
@@ -3572,13 +3572,9 @@ mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.15, mime-types@~2.1.7:
   dependencies:
     mime-db "~1.27.0"
 
-mime@1.3.4:
+mime@1.3.4, mime@^1.3.4:
   version "1.3.4"
   resolved "http://registry.npm.taobao.org/mime/download/mime-1.3.4.tgz#115f9e3b6b3daf2959983cb38f149a2d40eb5d53"
-
-mime@^1.3.4:
-  version "1.3.6"
-  resolved "http://registry.npm.taobao.org/mime/download/mime-1.3.6.tgz#591d84d3653a6b0b4a3b9df8de5aa8108e72e5e0"
 
 mimic-fn@^1.0.0:
   version "1.1.0"
@@ -4217,11 +4213,11 @@ q@^1.1.2, q@^1.4.1:
   version "1.5.0"
   resolved "http://registry.npm.taobao.org/q/download/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
 
-qs@6.2.0:
+qs@6.2.0, qs@^6.2.0:
   version "6.2.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
-qs@^6.1.0, qs@^6.2.0, qs@~6.4.0:
+qs@^6.1.0, qs@~6.4.0:
   version "6.4.0"
   resolved "http://registry.npm.taobao.org/qs/download/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
@@ -5129,16 +5125,9 @@ tsickle@^0.21.0:
     source-map "^0.5.6"
     source-map-support "^0.4.2"
 
-tslint-eslint-rules@1.5.0:
+tslint-eslint-rules@1.5.0, tslint-eslint-rules@^1.3.0:
   version "1.5.0"
   resolved "http://registry.npm.taobao.org/tslint-eslint-rules/download/tslint-eslint-rules-1.5.0.tgz#8b244fb03bae0f219e278357ddcaafee81c19615"
-  dependencies:
-    doctrine "^0.7.2"
-    tslint "^3.15.1"
-
-tslint-eslint-rules@^1.3.0:
-  version "1.6.1"
-  resolved "http://registry.npm.taobao.org/tslint-eslint-rules/download/tslint-eslint-rules-1.6.1.tgz#39e92f31956ad2a66c0061c351fa96c0808ae0f8"
   dependencies:
     doctrine "^0.7.2"
     tslint "^3.15.1"
