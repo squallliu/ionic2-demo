@@ -44,9 +44,9 @@
   dependencies:
     tsickle "^0.21.0"
 
-"@ionic-native/core@3.9.2":
-  version "3.9.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/core/-/core-3.9.2.tgz#ea016b80540db034de2ed0910599ecd8e678b282"
+"@ionic-native/core@3.10.2":
+  version "3.10.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/core/-/core-3.10.2.tgz#46fce01cf9863722bc45ca08d856038eda4d7676"
 
 "@ionic-native/device@3.9.2":
   version "3.9.2"
@@ -64,13 +64,13 @@
   version "3.9.2"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/local-notifications/-/local-notifications-3.9.2.tgz#8df8823f7e939d00b68233a341589f869f1acb56"
 
-"@ionic-native/splash-screen@3.9.2":
-  version "3.9.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/splash-screen/-/splash-screen-3.9.2.tgz#50800e7d0fb6f60fc65ba05aad8d6c12df16cb66"
+"@ionic-native/splash-screen@3.10.2":
+  version "3.10.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/splash-screen/-/splash-screen-3.10.2.tgz#f5d0ca7188afa352e654b4b1469e1c35030ced5a"
 
-"@ionic-native/status-bar@3.9.2":
-  version "3.9.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-3.9.2.tgz#9b2e4723084bd040900f77ad72a4e7e0b84d0f7b"
+"@ionic-native/status-bar@3.10.2":
+  version "3.10.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-3.10.2.tgz#5b6286c4bb9d8f575b94d000ee8d796fd4f2cde9"
 
 "@ionic-native/transfer@3.9.2":
   version "3.9.2"
@@ -111,15 +111,15 @@
     ws "1.1.1"
     xml2js "^0.4.17"
 
-"@ionic/cli-plugin-cordova@^1.2.0":
-  version "1.2.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-cordova/-/cli-plugin-cordova-1.2.0.tgz#5d0ab0057ac5a142bdd5d504176cae52c698ec30"
+"@ionic/cli-plugin-cordova@1.2.1":
+  version "1.2.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-cordova/-/cli-plugin-cordova-1.2.1.tgz#1faebf3a0c4822a58d41c1e5f1212c88356da121"
   dependencies:
     "@ionic/cli-utils" "1.2.0"
     chalk "^1.1.3"
     xml2js "^0.4.17"
 
-"@ionic/cli-plugin-ionic-angular@^1.2.0":
+"@ionic/cli-plugin-ionic-angular@1.2.0":
   version "1.2.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-ionic-angular/-/cli-plugin-ionic-angular-1.2.0.tgz#d77bbfdb32639c9d8d1279902aafa08637eb1dc6"
   dependencies:
@@ -1892,9 +1892,9 @@ express@4.14.1:
     utils-merge "1.0.0"
     vary "~1.1.0"
 
-ext-ionic@^1.4.12:
-  version "1.5.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.5.1.tgz#9bf85c1dfd70753ad33a6ff0a4238cf8a616e8e2"
+ext-ionic@1.5.2:
+  version "1.5.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.5.2.tgz#62ac55b5b74cf1325c06b7e58a0c862ed08c26d8"
   dependencies:
     "@ionic-native/device" "3.9.2"
     "@ionic-native/file" "3.9.2"
@@ -5657,6 +5657,6 @@ zip-stream@^1.1.0:
     lodash "^4.8.0"
     readable-stream "^2.0.0"
 
-zone.js@0.8.10:
-  version "0.8.10"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/zone.js/-/zone.js-0.8.10.tgz#6d1b696492c029cdbe808e59e87bbd9491b98aa8"
+zone.js@0.8.11:
+  version "0.8.11"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/zone.js/-/zone.js-0.8.11.tgz#742befb17fbc49a571712b8c7d87e58ca26fd886"
