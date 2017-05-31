@@ -111,24 +111,24 @@
     ws "1.1.1"
     xml2js "^0.4.17"
 
-"@ionic/cli-plugin-cordova@1.2.1":
-  version "1.2.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-cordova/-/cli-plugin-cordova-1.2.1.tgz#1faebf3a0c4822a58d41c1e5f1212c88356da121"
+"@ionic/cli-plugin-cordova@1.3.0":
+  version "1.3.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-cordova/-/cli-plugin-cordova-1.3.0.tgz#2ee9e98676c14b17f082d54093909297d4a4b526"
   dependencies:
-    "@ionic/cli-utils" "1.2.0"
+    "@ionic/cli-utils" "1.3.0"
     chalk "^1.1.3"
     xml2js "^0.4.17"
 
-"@ionic/cli-plugin-ionic-angular@1.2.0":
-  version "1.2.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-ionic-angular/-/cli-plugin-ionic-angular-1.2.0.tgz#d77bbfdb32639c9d8d1279902aafa08637eb1dc6"
+"@ionic/cli-plugin-ionic-angular@1.3.0":
+  version "1.3.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-ionic-angular/-/cli-plugin-ionic-angular-1.3.0.tgz#9abdc32dd88eb2df975e108ff33cf4a50621922a"
   dependencies:
-    "@ionic/cli-utils" "1.2.0"
+    "@ionic/cli-utils" "1.3.0"
     chalk "^1.1.3"
 
-"@ionic/cli-utils@1.2.0":
-  version "1.2.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-utils/-/cli-utils-1.2.0.tgz#3a8cd62cb636e1f4f2498806c2569cc103bcf077"
+"@ionic/cli-utils@1.3.0":
+  version "1.3.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-utils/-/cli-utils-1.3.0.tgz#5ba14279d5e27cd1a79d3e35fab722fea2ec6524"
   dependencies:
     archiver "^1.3.0"
     chalk "^1.1.3"
@@ -145,6 +145,7 @@
     string-width "^2.0.0"
     superagent "^3.5.2"
     uuid "^3.0.1"
+    wrap-ansi "^2.1.0"
 
 "@ionic/storage@2.0.1":
   version "2.0.1"
@@ -194,8 +195,8 @@ acorn@^1.0.3:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/acorn/-/acorn-1.2.2.tgz#c8ce27de0acc76d896d2b1fad3df588d9e82f014"
 
 acorn@^4.0.1, acorn@^4.0.3, acorn@^4.0.4:
-  version "4.0.11"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
+  version "4.0.13"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
 
 ajv-keywords@^1.1.1:
   version "1.5.1"
@@ -382,8 +383,8 @@ async-foreach@^0.1.3:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/async-foreach/-/async-foreach-0.1.3.tgz#36121f845c0578172de419a97dbeb1d16ec34542"
 
 async@^2.0.0, async@^2.1.2:
-  version "2.4.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/async/-/async-2.4.0.tgz#4990200f18ea5b837c2cc4f8c031a6985c385611"
+  version "2.4.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/async/-/async-2.4.1.tgz#62a56b279c98a11d0987096a01cc3eeb8eb7bbd7"
   dependencies:
     lodash "^4.14.0"
 
@@ -492,13 +493,13 @@ babel-helper-is-void-0@^0.0.1:
   version "0.0.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-helper-is-void-0/-/babel-helper-is-void-0-0.0.1.tgz#ed74553b883e68226ae45f989a99b02c190f105a"
 
-babel-helper-mark-eval-scopes@^0.0.3:
-  version "0.0.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-helper-mark-eval-scopes/-/babel-helper-mark-eval-scopes-0.0.3.tgz#902f75aeb537336edc35eb9f52b6f09db7785328"
+babel-helper-mark-eval-scopes@^0.1.1:
+  version "0.1.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-helper-mark-eval-scopes/-/babel-helper-mark-eval-scopes-0.1.1.tgz#4554345edf9f2549427bd2098e530253f8af2992"
 
-babel-helper-remove-or-void@^0.0.1:
-  version "0.0.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-helper-remove-or-void/-/babel-helper-remove-or-void-0.0.1.tgz#f602790e465acf2dfbe84fb3dd210c43a2dd7262"
+babel-helper-remove-or-void@^0.1.1:
+  version "0.1.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-helper-remove-or-void/-/babel-helper-remove-or-void-0.1.1.tgz#9d7e1856dc6fafcb41b283a416730dc1844f66d7"
 
 babel-helper-to-multiple-sequence-expressions@^0.0.3:
   version "0.0.3"
@@ -524,11 +525,11 @@ babel-plugin-minify-constant-folding@^0.0.3:
     babel-helper-evaluate-path "^0.0.3"
 
 babel-plugin-minify-dead-code-elimination@^0.1.2:
-  version "0.1.4"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-minify-dead-code-elimination/-/babel-plugin-minify-dead-code-elimination-0.1.4.tgz#18b6ecfab77c29caca061d8210fa3495001e4fa1"
+  version "0.1.6"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-minify-dead-code-elimination/-/babel-plugin-minify-dead-code-elimination-0.1.6.tgz#c5471346fb0a1046863fd765c784cba97d7b22e3"
   dependencies:
-    babel-helper-mark-eval-scopes "^0.0.3"
-    babel-helper-remove-or-void "^0.0.1"
+    babel-helper-mark-eval-scopes "^0.1.1"
+    babel-helper-remove-or-void "^0.1.1"
     lodash.some "^4.6.0"
 
 babel-plugin-minify-flip-comparisons@^0.0.2:
@@ -578,48 +579,44 @@ babel-plugin-transform-inline-consecutive-adds@^0.0.2:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-inline-consecutive-adds/-/babel-plugin-transform-inline-consecutive-adds-0.0.2.tgz#a58fcecfc09c08fbf9373a5a3e70746c03d01fc1"
 
 babel-plugin-transform-member-expression-literals@^6.8.1:
-  version "6.8.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-member-expression-literals/-/babel-plugin-transform-member-expression-literals-6.8.1.tgz#60b78cb2b814ac71dd6104ef51c496c62e877337"
+  version "6.8.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-member-expression-literals/-/babel-plugin-transform-member-expression-literals-6.8.3.tgz#4eefa7fa1d3a86d05ac220bc3fdf96d5ed1835d6"
 
 babel-plugin-transform-merge-sibling-variables@^6.8.1:
-  version "6.8.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-merge-sibling-variables/-/babel-plugin-transform-merge-sibling-variables-6.8.2.tgz#498acd07481ab340c1bad8b726c2fad1b8f644e5"
+  version "6.8.4"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-merge-sibling-variables/-/babel-plugin-transform-merge-sibling-variables-6.8.4.tgz#813a433f2d8c6989ee3a9c5e0cb46d3752d367a9"
 
 babel-plugin-transform-minify-booleans@^6.8.0:
-  version "6.8.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-minify-booleans/-/babel-plugin-transform-minify-booleans-6.8.0.tgz#b1a48864a727847696b84eae36fa4d085a54b42b"
-  dependencies:
-    babel-runtime "^6.0.0"
+  version "6.8.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-minify-booleans/-/babel-plugin-transform-minify-booleans-6.8.2.tgz#8451579f706e702c1e1ab2756de5c8ea369cf07c"
 
 babel-plugin-transform-property-literals@^6.8.1:
-  version "6.8.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-property-literals/-/babel-plugin-transform-property-literals-6.8.1.tgz#05ed01f6024820b18f1d0495c80fe287176bccd9"
+  version "6.8.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-property-literals/-/babel-plugin-transform-property-literals-6.8.3.tgz#0dcd2ecf0486c54c23f84817f911c4ab0e8d4b99"
 
 babel-plugin-transform-regexp-constructors@^0.0.5:
   version "0.0.5"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-regexp-constructors/-/babel-plugin-transform-regexp-constructors-0.0.5.tgz#74d95e0c567e6fc1d9c699a084894d40de8e581d"
 
 babel-plugin-transform-remove-console@^6.8.0:
-  version "6.8.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-remove-console/-/babel-plugin-transform-remove-console-6.8.1.tgz#38f6a6ca1581e76b75fc2c6fdcf909deadee7d6a"
+  version "6.8.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-remove-console/-/babel-plugin-transform-remove-console-6.8.3.tgz#313441720324ad20af0fb009fa59e8102364626b"
 
 babel-plugin-transform-remove-debugger@^6.8.0:
-  version "6.8.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-remove-debugger/-/babel-plugin-transform-remove-debugger-6.8.1.tgz#aabd0be107f8299094defe8e1ba8ccf4b114d07f"
+  version "6.8.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-remove-debugger/-/babel-plugin-transform-remove-debugger-6.8.3.tgz#5064f2d843b77ce660ebaa7760be30eb925bb93f"
 
 babel-plugin-transform-remove-undefined@^0.0.4:
   version "0.0.4"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-remove-undefined/-/babel-plugin-transform-remove-undefined-0.0.4.tgz#cc75be04b9bbd7bb2005272cc160b4d08692d77c"
 
 babel-plugin-transform-simplify-comparison-operators@^6.8.1:
-  version "6.8.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-simplify-comparison-operators/-/babel-plugin-transform-simplify-comparison-operators-6.8.1.tgz#a307088e0d1c728081777fba568f4107396ab25c"
+  version "6.8.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-simplify-comparison-operators/-/babel-plugin-transform-simplify-comparison-operators-6.8.3.tgz#2e47e11e5f8dc33e97476e0263151d5fd57e1c4c"
 
 babel-plugin-transform-undefined-to-void@^6.8.0:
-  version "6.8.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-undefined-to-void/-/babel-plugin-transform-undefined-to-void-6.8.0.tgz#bc5b6b4908d3b1262170e67cb3963903ddce167e"
-  dependencies:
-    babel-runtime "^6.0.0"
+  version "6.8.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-plugin-transform-undefined-to-void/-/babel-plugin-transform-undefined-to-void-6.8.2.tgz#fe2b1d294eb05e87524eb93724dea6e2c3d66fa1"
 
 babel-polyfill@^6.23.0:
   version "6.23.0"
@@ -668,7 +665,7 @@ babel-register@^6.24.1:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@^6.0.0, babel-runtime@^6.22.0:
+babel-runtime@^6.22.0:
   version "6.23.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
@@ -716,8 +713,8 @@ babili@0.0.10:
     babel-preset-babili "^0.0.10"
 
 babylon@^6.11.0, babylon@^6.15.0:
-  version "6.17.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/babylon/-/babylon-6.17.1.tgz#17f14fddf361b695981fe679385e4f1c01ebd86f"
+  version "6.17.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/babylon/-/babylon-6.17.2.tgz#201d25ef5f892c41bae49488b08db0dd476e9f5c"
 
 balanced-match@^0.4.1:
   version "0.4.2"
@@ -1015,8 +1012,8 @@ camelcase@^3.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
 caniuse-db@^1.0.30000618, caniuse-db@^1.0.30000639:
-  version "1.0.30000670"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/caniuse-db/-/caniuse-db-1.0.30000670.tgz#90d33b79e3090e25829c311113c56d6b1788bf43"
+  version "1.0.30000676"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/caniuse-db/-/caniuse-db-1.0.30000676.tgz#82ea578237637c8ff34a28acaade373b624c4ea8"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1137,8 +1134,8 @@ co@^4.6.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
 coa@~1.0.1:
-  version "1.0.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/coa/-/coa-1.0.1.tgz#7f959346cfc8719e3f7233cd6852854a7c67d8a3"
+  version "1.0.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/coa/-/coa-1.0.2.tgz#2ba9fec3b4aa43d7a49d7e6c3561e92061b6bcec"
   dependencies:
     q "^1.1.2"
 
@@ -1283,8 +1280,8 @@ cordova-plugin-device@*, cordova-plugin-device@^1.1.6:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-device/-/cordova-plugin-device-1.1.6.tgz#2d21764cad7c9b801523e4e09a30e024b249334b"
 
 cordova-plugin-file-opener2@^2.0.15:
-  version "2.0.15"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.0.15.tgz#11b0d24fc6bde4d278e6710792b52332046de37a"
+  version "2.0.17"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.0.17.tgz#9f9c57ebe6dc78ffc881f5c70acf8b0b5927f31f"
 
 cordova-plugin-file-transfer@^1.6.3:
   version "1.6.3"
@@ -1296,7 +1293,7 @@ cordova-plugin-file@^4.3.3:
 
 "cordova-plugin-splashscreen@git+https://github.com/squallliu/cordova-plugin-splashscreen.git":
   version "4.0.4-dev"
-  resolved "git+https://github.com/squallliu/cordova-plugin-splashscreen.git#1ae369fe1b36e6527da2716ebda3a5b1787ed9d3"
+  resolved "git+https://github.com/squallliu/cordova-plugin-splashscreen.git#0cca77c4a8318f1306d9147a70110e1fc1724b3e"
 
 cordova-plugin-statusbar@^2.2.3:
   version "2.2.3"
@@ -1438,7 +1435,7 @@ dateformat@^2.0.0:
 
 "de.appplant.cordova.plugin.local-notification@git+https://github.com/squallliu/cordova-plugin-local-notifications.git":
   version "0.8.4"
-  resolved "git+https://github.com/squallliu/cordova-plugin-local-notifications.git#716fe2077ffde5356a522d63e7c17d3d53dee138"
+  resolved "git+https://github.com/squallliu/cordova-plugin-local-notifications.git#17081cbead53f1f474091c6f0a27fe370eba51a4"
   dependencies:
     cordova-plugin-app-event ">=1.1.0"
     cordova-plugin-device "*"
@@ -1671,8 +1668,8 @@ ee-first@1.1.1:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.2.7:
-  version "1.3.11"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/electron-to-chromium/-/electron-to-chromium-1.3.11.tgz#744761df1d67b492b322ce9aa0aba5393260eb61"
+  version "1.3.13"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/electron-to-chromium/-/electron-to-chromium-1.3.13.tgz#1b3a5eace6e087bb5e257a100b0cbfe81b2891fc"
 
 elementtree@0.1.6:
   version "0.1.6"
@@ -1772,7 +1769,7 @@ esprima-fb@~15001.1001.0-dev-harmony-fb:
 
 esprima-fb@~3001.0001.0000-dev-harmony-fb, esprima-fb@~3001.1.0-dev-harmony-fb:
   version "3001.1.0-dev-harmony-fb"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/esprima-fb/-/esprima-fb-3001.1.0-dev-harmony-fb.tgz#b77d37abcd38ea0b77426bb8bc2922ce6b426411"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/esprima-fb/-/esprima-fb-3001.0001.0000-dev-harmony-fb.tgz#b77d37abcd38ea0b77426bb8bc2922ce6b426411"
 
 esprima@^2.6.0:
   version "2.7.3"
@@ -1915,9 +1912,11 @@ extend@^3.0.0, extend@~3.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
 external-editor@^2.0.1:
-  version "2.0.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/external-editor/-/external-editor-2.0.1.tgz#4c597c6c88fa6410e41dbbaa7b1be2336aa31095"
+  version "2.0.4"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/external-editor/-/external-editor-2.0.4.tgz#1ed9199da9cbfe2ef2f7a31b2fde8b0d12368972"
   dependencies:
+    iconv-lite "^0.4.17"
+    jschardet "^1.4.2"
     tmp "^0.0.31"
 
 extglob@^0.3.1:
@@ -2293,13 +2292,13 @@ glob@^5.0.13, glob@^5.0.3, glob@~5.0.0:
     path-is-absolute "^1.0.0"
 
 glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@~7.1.1:
-  version "7.1.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
+  version "7.1.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
     inherits "2"
-    minimatch "^3.0.2"
+    minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
@@ -2411,8 +2410,8 @@ gulp-decompress@^1.2.0:
     readable-stream "^2.0.2"
 
 gulp-imagemin@^3.1.1:
-  version "3.2.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/gulp-imagemin/-/gulp-imagemin-3.2.0.tgz#26887ad65d2c51bb317c4b02b5604f4a78bf74a8"
+  version "3.3.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/gulp-imagemin/-/gulp-imagemin-3.3.0.tgz#c55764c260593e8595609e66a40126911ef22264"
   dependencies:
     chalk "^1.0.0"
     gulp-util "^3.0.0"
@@ -2592,6 +2591,10 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
+iconv-lite@^0.4.17:
+  version "0.4.17"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/iconv-lite/-/iconv-lite-0.4.17.tgz#4fdaa3b38acbc2c031b045d0edcdfe1ecab18c8d"
+
 idb-wrapper@^1.5.0:
   version "1.7.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/idb-wrapper/-/idb-wrapper-1.7.1.tgz#6a32670122e173a84ecc5cfa9668fa2ceb221b04"
@@ -2625,16 +2628,16 @@ imagemin-optipng@^5.1.0:
     optipng-bin "^3.0.0"
 
 imagemin-pngquant@^5.0.0:
-  version "5.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/imagemin-pngquant/-/imagemin-pngquant-5.0.0.tgz#7d72405778caba9c510eb3cb4590c8413383560e"
+  version "5.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/imagemin-pngquant/-/imagemin-pngquant-5.0.1.tgz#d8a329da553afa226b11ce62debe0b7e37b439e6"
   dependencies:
     exec-buffer "^3.0.0"
     is-png "^1.0.0"
     pngquant-bin "^3.0.0"
 
 imagemin-svgo@^5.1.0:
-  version "5.2.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/imagemin-svgo/-/imagemin-svgo-5.2.1.tgz#74d593ce4cbe1b87efdb3d06a4a56078f71a8147"
+  version "5.2.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/imagemin-svgo/-/imagemin-svgo-5.2.2.tgz#501699f5789730a57922b8736ea15c53f7b55838"
   dependencies:
     is-svg "^2.0.0"
     svgo "^0.7.0"
@@ -2796,8 +2799,8 @@ is-bzip2@^1.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/is-bzip2/-/is-bzip2-1.0.0.tgz#5ee58eaa5a2e9c80e21407bedf23ae5ac091b3fc"
 
 is-dotfile@^1.0.0:
-  version "1.0.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/is-dotfile/-/is-dotfile-1.0.2.tgz#2c132383f39199f8edc268ca01b9b007d205cc4d"
+  version "1.0.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/is-dotfile/-/is-dotfile-1.0.3.tgz#a6a2f32ffd2dfb04f5ca25ecd0f6b83cf798a1e1"
 
 is-equal-shallow@^0.1.3:
   version "0.1.3"
@@ -3019,6 +3022,10 @@ js-yaml@~3.7.0:
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
+
+jschardet@^1.4.2:
+  version "1.4.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/jschardet/-/jschardet-1.4.2.tgz#2aa107f142af4121d145659d44f50830961e699a"
 
 jsesc@^1.3.0:
   version "1.3.0"
@@ -3445,17 +3452,13 @@ lowercase-keys@^1.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
 
 lpad-align@^1.0.1:
-  version "1.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/lpad-align/-/lpad-align-1.1.0.tgz#27fa786bcb695fc434ea1500723eb8d0bdc82bf4"
+  version "1.1.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/lpad-align/-/lpad-align-1.1.2.tgz#21f600ac1c3095c3c6e497ee67271ee08481fe9e"
   dependencies:
     get-stdin "^4.0.1"
+    indent-string "^2.1.0"
     longest "^1.0.0"
-    lpad "^2.0.1"
     meow "^3.3.0"
-
-lpad@^2.0.1:
-  version "2.0.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/lpad/-/lpad-2.0.1.tgz#28316b4e7b2015f511f6591459afc0e5944008ad"
 
 lru-cache@2:
   version "2.7.3"
@@ -3577,9 +3580,13 @@ mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.15, mime-types@~2.1.7:
   dependencies:
     mime-db "~1.27.0"
 
-mime@1.3.4, mime@^1.3.4:
+mime@1.3.4:
   version "1.3.4"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/mime/-/mime-1.3.4.tgz#115f9e3b6b3daf2959983cb38f149a2d40eb5d53"
+
+mime@^1.3.4:
+  version "1.3.6"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/mime/-/mime-1.3.6.tgz#591d84d3653a6b0b4a3b9df8de5aa8108e72e5e0"
 
 mimic-fn@^1.0.0:
   version "1.1.0"
@@ -3593,7 +3600,7 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@~3.0.2:
+"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -3718,8 +3725,8 @@ node-libs-browser@^2.0.0:
     vm-browserify "0.0.4"
 
 node-pre-gyp@^0.6.29:
-  version "0.6.34"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/node-pre-gyp/-/node-pre-gyp-0.6.34.tgz#94ad1c798a11d7fc67381b50d47f8cc18d9799f7"
+  version "0.6.36"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/node-pre-gyp/-/node-pre-gyp-0.6.36.tgz#db604112cb74e0d477554e9b505b17abddfab786"
   dependencies:
     mkdirp "^0.5.1"
     nopt "^4.0.1"
@@ -4218,11 +4225,11 @@ q@^1.1.2, q@^1.4.1:
   version "1.5.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/q/-/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
 
-qs@6.2.0, qs@^6.2.0:
+qs@6.2.0, qs@^6.1.0, qs@^6.2.0:
   version "6.2.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/qs/-/qs-6.2.0.tgz#3b7848c03c2dece69a9522b0fae8c4126d745f3b"
 
-qs@^6.1.0, qs@~6.4.0:
+qs@~6.4.0:
   version "6.4.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
@@ -4750,8 +4757,8 @@ spdx-license-ids@^1.0.2:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
 
 sprintf-js@^1.0.3:
-  version "1.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/sprintf-js/-/sprintf-js-1.1.0.tgz#cffcaf702daf65ea39bb4e0fa2b299cec1a1be46"
+  version "1.1.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/sprintf-js/-/sprintf-js-1.1.1.tgz#36be78320afe5801f6cea3ee78b6e5aab940ea0c"
 
 sprintf-js@~1.0.2:
   version "1.0.3"
@@ -4854,10 +4861,10 @@ string_decoder@0.10, string_decoder@^0.10.25, string_decoder@~0.10.x:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
 
 string_decoder@~1.0.0:
-  version "1.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-1.0.0.tgz#f06f41157b664d86069f84bdbdc9b0d8ab281667"
+  version "1.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-1.0.1.tgz#62e200f039955a6810d8df0a33ffc0f013662d98"
   dependencies:
-    buffer-shims "~1.0.0"
+    safe-buffer "^5.0.1"
 
 stringstream@~0.0.4:
   version "0.0.5"
@@ -5130,9 +5137,16 @@ tsickle@^0.21.0:
     source-map "^0.5.6"
     source-map-support "^0.4.2"
 
-tslint-eslint-rules@1.5.0, tslint-eslint-rules@^1.3.0:
+tslint-eslint-rules@1.5.0:
   version "1.5.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/tslint-eslint-rules/-/tslint-eslint-rules-1.5.0.tgz#8b244fb03bae0f219e278357ddcaafee81c19615"
+  dependencies:
+    doctrine "^0.7.2"
+    tslint "^3.15.1"
+
+tslint-eslint-rules@^1.3.0:
+  version "1.6.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/tslint-eslint-rules/-/tslint-eslint-rules-1.6.1.tgz#39e92f31956ad2a66c0061c351fa96c0808ae0f8"
   dependencies:
     doctrine "^0.7.2"
     tslint "^3.15.1"
@@ -5504,7 +5518,7 @@ wordwrap@~0.0.2:
   version "0.0.3"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
 
-wrap-ansi@^2.0.0:
+wrap-ansi@^2.0.0, wrap-ansi@^2.1.0:
   version "2.1.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
   dependencies:
