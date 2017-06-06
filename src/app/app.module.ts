@@ -4,7 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { LazyExtIonicModule } from 'ext-ionic';
+import { ExtIonicModule } from 'ext-ionic';
 
 import { ListData } from '../providers/list-data';
 import { MyApp } from './app.component';
@@ -27,7 +27,7 @@ const declarations: Array<any> = [
         }
       }
     }),
-    LazyExtIonicModule.forRoot()
+    ExtIonicModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: declarations,
