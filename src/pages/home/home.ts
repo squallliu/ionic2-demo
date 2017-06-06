@@ -59,6 +59,10 @@ export class HomePage {
     this.navCtrl.push('SlideTabsPage');
   }
 
+  gallery() {
+    this.navCtrl.push('GalleryPage');
+  }
+
   navButton() {
     this.navCtrl.push('NavButtonPage');
   }
