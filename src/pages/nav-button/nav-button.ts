@@ -17,6 +17,16 @@ export class NavButtonPage {
     this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
     this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
     this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
+    this.navButtons.push({ icon: 'bookmarks', label: '测试', page: 'BaiduMapPage' });
 
     this.numberButtons.push({ number: 5, label: '测试', page: 'BaiduMapPage' });
     this.numberButtons.push({ number: 9, label: '测试', page: 'BaiduMapPage' });
