@@ -2,45 +2,45 @@
 # yarn lockfile v1
 
 
-"@angular/common@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/common/-/common-4.1.2.tgz#8f6d0496c204210bfe255feb437a72253f06984d"
+"@angular/common@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/common/-/common-4.1.3.tgz#e7c4791e32131cf74c239428c2a67daab2eef017"
 
-"@angular/compiler-cli@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/compiler-cli/-/compiler-cli-4.1.2.tgz#b65ba8980330c048702aed242a956daf0251f02a"
+"@angular/compiler-cli@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/compiler-cli/-/compiler-cli-4.1.3.tgz#c2362ffdf65756471481f839fab675bcac213f96"
   dependencies:
-    "@angular/tsc-wrapped" "4.1.2"
+    "@angular/tsc-wrapped" "4.1.3"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
 
-"@angular/compiler@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/compiler/-/compiler-4.1.2.tgz#09542381162fd8dd962d84559498ce69a05071ea"
+"@angular/compiler@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/compiler/-/compiler-4.1.3.tgz#d2dd30853b0cf4a54758b4a314632c231f9c94c3"
 
-"@angular/core@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/core/-/core-4.1.2.tgz#37b5c040b9dd37003499aea04319d699e3870596"
+"@angular/core@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/core/-/core-4.1.3.tgz#285498eb86ab7d0b6f982f8f9f487ef610013b35"
 
-"@angular/forms@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/forms/-/forms-4.1.2.tgz#82983e9ec5d0833e7ae14beb8e47dd357c88f490"
+"@angular/forms@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/forms/-/forms-4.1.3.tgz#380ab4c3af84c5d1d748c2a7d04151c7dc8e4982"
 
-"@angular/http@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/http/-/http-4.1.2.tgz#fc378c3330c0410e1fb8aac2546329a6887776e4"
+"@angular/http@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/http/-/http-4.1.3.tgz#eb9d1c302a0172815f9a573310d9be0bdeb845ae"
 
-"@angular/platform-browser-dynamic@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.1.2.tgz#d241c61792c794bec627ab64b31a66bea22abb9f"
+"@angular/platform-browser-dynamic@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.1.3.tgz#3c13fdcf591d487f6efdc1d46913f280c6d8c2ec"
 
-"@angular/platform-browser@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/platform-browser/-/platform-browser-4.1.2.tgz#16e50a8f75b4d675c9e2903e499e0fe4c6a125ac"
+"@angular/platform-browser@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/platform-browser/-/platform-browser-4.1.3.tgz#4fa1db5119dd178b315ddae5b329bee1a932a5bd"
 
-"@angular/tsc-wrapped@4.1.2":
-  version "4.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/tsc-wrapped/-/tsc-wrapped-4.1.2.tgz#26cb145a67b9b80f5dda7874c4f0b1f1e173927d"
+"@angular/tsc-wrapped@4.1.3":
+  version "4.1.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/tsc-wrapped/-/tsc-wrapped-4.1.3.tgz#2d6372c9187bf1621eacd960b94b39c4f95293cd"
   dependencies:
     tsickle "^0.21.0"
 
@@ -111,24 +111,24 @@
     ws "1.1.1"
     xml2js "^0.4.17"
 
-"@ionic/cli-plugin-cordova@1.3.0":
-  version "1.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-cordova/-/cli-plugin-cordova-1.3.0.tgz#2ee9e98676c14b17f082d54093909297d4a4b526"
+"@ionic/cli-plugin-cordova@1.4.0":
+  version "1.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-cordova/-/cli-plugin-cordova-1.4.0.tgz#2d3dd7bbd7321e0f1994b6f1a217176f55145296"
   dependencies:
-    "@ionic/cli-utils" "1.3.0"
+    "@ionic/cli-utils" "1.4.0"
     chalk "^1.1.3"
     xml2js "^0.4.17"
 
-"@ionic/cli-plugin-ionic-angular@1.3.0":
-  version "1.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-ionic-angular/-/cli-plugin-ionic-angular-1.3.0.tgz#9abdc32dd88eb2df975e108ff33cf4a50621922a"
+"@ionic/cli-plugin-ionic-angular@1.3.1":
+  version "1.3.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-plugin-ionic-angular/-/cli-plugin-ionic-angular-1.3.1.tgz#8985f5a520db97ed6206615464e173d086ecd1ea"
   dependencies:
-    "@ionic/cli-utils" "1.3.0"
+    "@ionic/cli-utils" "1.4.0"
     chalk "^1.1.3"
 
-"@ionic/cli-utils@1.3.0":
-  version "1.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-utils/-/cli-utils-1.3.0.tgz#5ba14279d5e27cd1a79d3e35fab722fea2ec6524"
+"@ionic/cli-utils@1.4.0":
+  version "1.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/cli-utils/-/cli-utils-1.4.0.tgz#78c70b69c3b98a463aa01ea507d7d01da3dfa675"
   dependencies:
     archiver "^1.3.0"
     chalk "^1.1.3"
@@ -136,6 +136,7 @@
     dargs "^5.1.0"
     inquirer "^3.0.6"
     leek "0.0.24"
+    lodash "^4.17.4"
     minimist "^1.2.0"
     ncp "^2.0.0"
     os-name "^2.0.1"
@@ -1889,9 +1890,9 @@ express@4.14.1:
     utils-merge "1.0.0"
     vary "~1.1.0"
 
-ext-ionic@1.5.6:
-  version "1.5.6"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.5.6.tgz#9fdf5cbd3b4ae87cb3a89205d6e15295c41aaa8c"
+ext-ionic@1.5.8:
+  version "1.5.8"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.5.8.tgz#b8d077c97a946297a8eca80aab7a000ea40dc5f7"
   dependencies:
     "@ionic-native/device" "3.10.2"
     "@ionic-native/file" "3.10.2"
@@ -2733,9 +2734,9 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ionic-angular@3.3.0:
-  version "3.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ionic-angular/-/ionic-angular-3.3.0.tgz#81cabbcb3bcc218ec9056cc4fdeaebc264db6f94"
+ionic-angular@3.4.0:
+  version "3.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ionic-angular/-/ionic-angular-3.4.0.tgz#d51fd5a747b3f5bf97f1883cc4da776833f38057"
 
 ionic-plugin-keyboard@^2.2.1:
   version "2.2.1"
@@ -3411,7 +3412,7 @@ lodash@^3.5.0:
   version "3.10.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.8.0:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.8.0:
   version "4.17.4"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -4549,9 +4550,9 @@ rx@^4.1.0:
   version "4.1.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/rx/-/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
 
-rxjs@5.1.1:
-  version "5.1.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/rxjs/-/rxjs-5.1.1.tgz#fc48922965bc6c5efbcc0fe46e90a3af64137a7b"
+rxjs@5.4.0:
+  version "5.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/rxjs/-/rxjs-5.4.0.tgz#a7db14ab157f9d7aac6a56e655e7a3860d39bf26"
   dependencies:
     symbol-observable "^1.0.1"
 
@@ -5660,6 +5661,6 @@ zip-stream@^1.1.0:
     lodash "^4.8.0"
     readable-stream "^2.0.0"
 
-zone.js@0.8.11:
-  version "0.8.11"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/zone.js/-/zone.js-0.8.11.tgz#742befb17fbc49a571712b8c7d87e58ca26fd886"
+zone.js@0.8.12:
+  version "0.8.12"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/zone.js/-/zone.js-0.8.12.tgz#86ff5053c98aec291a0bf4bbac501d694a05cfbb"
