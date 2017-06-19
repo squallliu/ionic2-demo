@@ -6,7 +6,7 @@
 <ion-content>
   <ion-list>
     <ion-item>
-      <ion-star-rating [(ngModel)]="starLevel"></ion-star-rating>
+      <ion-star-rating item-content [(ngModel)]="starLevel" (ionChange)="starChange($event)"></ion-star-rating>
     </ion-item>
     <ion-item>
       <button class="text-symbol" ion-button item-left>玺</button>
