@@ -1890,9 +1890,9 @@ express@4.14.1:
     utils-merge "1.0.0"
     vary "~1.1.0"
 
-ext-ionic@1.5.9:
-  version "1.5.9"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.5.9.tgz#c5c0c11655c5e326225eccc15b757e67638328c8"
+ext-ionic@1.5.10:
+  version "1.5.10"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.5.10.tgz#4d9bf196041299c2a84c728c77ef03db3d743ba3"
   dependencies:
     "@ionic-native/device" "3.10.2"
     "@ionic-native/file" "3.10.2"
