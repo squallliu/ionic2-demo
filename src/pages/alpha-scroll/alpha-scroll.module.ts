@@ -16,4 +16,4 @@ import { AlphaScrollPage } from './alpha-scroll';
     AlphaScrollPage
   ]
 })
-export class AlphaScrollPageModule { } 
+export class AlphaScrollPageModule { }

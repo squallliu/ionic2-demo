@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, IonicPage } from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 
 @IonicPage()
 @Component({
@@ -15,6 +15,6 @@ export class SlideTabsPage {
     fromTabs: true
   };
 
-  constructor(private navCtrl: NavController) {
+  constructor() {
   }
 }
