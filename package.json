@@ -12,7 +12,7 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "config": {
-    "ionic_manual_treeshaking": true
+    "ionic_manual_treeshaking": false
   },
   "dependencies": {
     "@angular/common": "4.1.3",
