@@ -12,6 +12,7 @@
       <ion-auto-complete item-content showClear="true" icon="pin" [template]="itemTemplate" [dataProvider]="bpProvider" textField="name" valueField="location" placeholder="请输入地址" [(ngModel)]="coord" (ionChange)="coordChange($event)"></ion-auto-complete>
       <ng-template #itemTemplate let-item="item">
         <h2>{{item.name}}</h2>
+        <p>{{item.city}}{{item.district}}</p>
       </ng-template>
     </ion-item>
     <ion-item>
