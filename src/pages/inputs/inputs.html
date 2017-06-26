@@ -9,6 +9,12 @@
       <ion-star-rating item-content [(ngModel)]="starLevel" (ionChange)="starChange($event)"></ion-star-rating>
     </ion-item>
     <ion-item>
+      <ion-auto-complete item-content icon="pin" [template]="itemTemplate" [dataProvider]="bpProvider" textField="name" valueField="location" placeholder="请输入地址" [(ngModel)]="coord" (ionChange)="coordChange($event)"></ion-auto-complete>
+      <ng-template #itemTemplate let-item="item">
+        <h2>{{item.name}}</h2>
+      </ng-template>
+    </ion-item>
+    <ion-item>
       <button class="text-symbol" ion-button item-left>玺</button>
       <h2>好好好好法好大发的法</h2>
       <p>好好好好法好</p>

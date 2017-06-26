@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { StarRatingModule } from 'ext-ionic';
+import { StarRatingModule, AutoCompleteModule } from 'ext-ionic';
 
 import { InputsPage } from './inputs';
 
@@ -10,6 +10,7 @@ import { InputsPage } from './inputs';
   ],
   imports: [
     StarRatingModule.forRoot(),
+    AutoCompleteModule.forRoot(),
     IonicPageModule.forChild(InputsPage)
   ],
   entryComponents: [

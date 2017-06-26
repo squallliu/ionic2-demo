@@ -1,4 +1,5 @@
 import { NgModule, ErrorHandler } from '@angular/core';
+import { JsonpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -17,6 +18,7 @@ const declarations: Array<any> = [
   declarations: declarations,
   imports: [
     BrowserModule,
+    JsonpModule,
     IonicModule.forRoot(MyApp, {
       platforms: {
         android: {
