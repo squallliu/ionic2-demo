@@ -9,7 +9,7 @@
       <ion-star-rating item-content [(ngModel)]="starLevel" (ionChange)="starChange($event)"></ion-star-rating>
     </ion-item>
     <ion-item>
-      <ion-auto-complete item-content icon="pin" [template]="itemTemplate" [dataProvider]="bpProvider" textField="name" valueField="location" placeholder="请输入地址" [(ngModel)]="coord" (ionChange)="coordChange($event)"></ion-auto-complete>
+      <ion-auto-complete item-content showClear="true" icon="pin" [template]="itemTemplate" [dataProvider]="bpProvider" textField="name" valueField="location" placeholder="请输入地址" [(ngModel)]="coord" (ionChange)="coordChange($event)"></ion-auto-complete>
       <ng-template #itemTemplate let-item="item">
         <h2>{{item.name}}</h2>
       </ng-template>
