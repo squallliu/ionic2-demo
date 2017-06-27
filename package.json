@@ -23,9 +23,9 @@
     "@angular/http": "4.1.3",
     "@angular/platform-browser": "4.1.3",
     "@angular/platform-browser-dynamic": "4.1.3",
-    "@ionic-native/core": "3.10.2",
-    "@ionic-native/splash-screen": "3.10.2",
-    "@ionic-native/status-bar": "3.10.2",
+    "@ionic-native/core": "3.12.1",
+    "@ionic-native/splash-screen": "3.12.1",
+    "@ionic-native/status-bar": "3.12.1",
     "@ionic/storage": "2.0.1",
     "cordova-android": "^6.2.3",
     "cordova-plugin-Immerse": "git+https://github.com/squallliu/cordova-plugin-Immerse.git",
@@ -40,7 +40,7 @@
     "cordova-plugin-statusbar": "^2.2.3",
     "cordova-plugin-whitelist": "^1.3.2",
     "de.appplant.cordova.plugin.local-notification": "git+https://github.com/squallliu/cordova-plugin-local-notifications.git",
-    "ext-ionic": "1.7.1",
+    "ext-ionic": "1.7.3",
     "ionic-angular": "3.4.2",
     "ionic-plugin-keyboard": "^2.2.1",
     "ionicons": "3.0.0",
@@ -56,7 +56,7 @@
     "gulp-imagemin": "^3.1.1",
     "imagemin-pngquant": "^5.0.0",
     "tslint-ionic-rules": "^0.0.8",
-    "typescript": "2.3.3"
+    "typescript": "2.3.4"
   },
   "cordovaPlugins": [
     "ionic-plugin-keyboard",
