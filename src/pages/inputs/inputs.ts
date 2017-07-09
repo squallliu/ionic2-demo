@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavParams, IonicPage } from 'ionic-angular';
 import { BaiduPlacesProvider } from 'ext-ionic';
 
@@ -16,7 +16,7 @@ export class InputsPage {
     lng: 114.28819134072
   };
 
-  constructor(private navParams: NavParams, private bpProvider: BaiduPlacesProvider) {
+  constructor(private navParams: NavParams, bpProvider: BaiduPlacesProvider) {
   }
 
   starChange($event) {

@@ -16,11 +16,11 @@ export class MyApp {
     private splashScreen: SplashScreen,
     private hotUpdater: HotUpdater
   ) {
-    platform.ready().then(() => {
-      hotUpdater.start();
+    this.platform.ready().then(() => {
+      this.hotUpdater.start();
 
-      statusBar.styleDefault();
-      splashScreen.hide();
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
     });
   }
 }
