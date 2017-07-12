@@ -16,7 +16,7 @@ export class InputsPage {
     lng: 114.28819134072
   };
 
-  constructor(private navParams: NavParams, bpProvider: BaiduPlacesProvider) {
+  constructor(private navParams: NavParams, public placesProvider: BaiduPlacesProvider) {
   }
 
   starChange($event) {
