@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { StarRatingModule, AutoCompleteModule } from 'ext-ionic';
+import { AutoCompleteModule, StarRatingModule } from 'ext-ionic';
 
 import { InputsPage } from './inputs';
 

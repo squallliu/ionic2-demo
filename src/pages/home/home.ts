@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController, IonicPage } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 
-import { OpenUrlModalController } from 'ext-ionic';
+import { Dialog, OpenUrlModalController } from 'ext-ionic';
 
 @IonicPage()
 @Component({
@@ -9,7 +9,8 @@ import { OpenUrlModalController } from 'ext-ionic';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  constructor(private openUrlCtrl: OpenUrlModalController, private navCtrl: NavController) {
+  constructor(private openUrlCtrl: OpenUrlModalController, private navCtrl: NavController, private dialog: Dialog) {
+    this.dialog.alert('test', 'ok');
   }
 
   openExternalUrl() {

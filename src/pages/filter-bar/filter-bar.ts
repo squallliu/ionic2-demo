@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavParams, IonicPage } from 'ionic-angular';
+import { IonicPage, NavParams } from 'ionic-angular';
 
 import { ListData } from '../../providers/list-data';
 

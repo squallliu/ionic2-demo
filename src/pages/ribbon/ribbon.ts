@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavParams, App, IonicPage } from 'ionic-angular';
+import { App, IonicPage, NavParams } from 'ionic-angular';
 import { FilterBarPage } from '../filter-bar/filter-bar';
 
 @IonicPage()
