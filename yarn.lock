@@ -1553,9 +1553,9 @@ express@4.15.3:
     utils-merge "1.0.0"
     vary "~1.1.1"
 
-ext-ionic@1.8.11:
-  version "1.8.11"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.8.11.tgz#e2e3db6bd02bc7e53dc5cd33b486db18a2fb3ee6"
+ext-ionic@1.8.16:
+  version "1.8.16"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.8.16.tgz#b04eab807276206d0a0740bc524daedf9601cfc9"
   dependencies:
     "@ionic-native/device" "4.1.0"
     "@ionic-native/file" "4.1.0"
@@ -1981,9 +1981,9 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ionic-angular@3.6.0:
-  version "3.6.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ionic-angular/-/ionic-angular-3.6.0.tgz#3c9222796c84cab37f5a3d090c268c9fe308e007"
+ionic-angular@3.6.1:
+  version "3.6.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ionic-angular/-/ionic-angular-3.6.1.tgz#a2b568f79d52050c19f9cee157de60bc058d09c2"
 
 ionic-plugin-keyboard@^2.2.1:
   version "2.2.1"
