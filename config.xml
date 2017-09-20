@@ -87,6 +87,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="git+https://github.com/squallliu/cordova-plugin-splashscreen.git" />
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
-    <plugin name="de.appplant.cordova.plugin.local-notification" spec="git+https://github.com/squallliu/cordova-plugin-local-notifications.git" />
+    <plugin name="cordova-plugin-local-notifications" spec="git+https://github.com/squallliu/cordova-plugin-local-notifications.git" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
 </widget>
