@@ -81,7 +81,6 @@
     </chcp>
     <engine name="android" spec="^6.2.3" />
     <plugin name="cordova-plugin-Immerse" spec="git+https://github.com/squallliu/cordova-plugin-Immerse.git" />
-    <plugin name="cordova-plugin-console" spec="^1.0.7" />
     <plugin name="cordova-plugin-device" spec="^1.1.6" />
     <plugin name="cordova-plugin-file-opener2" spec="^2.0.15" />
     <plugin name="cordova-plugin-file-transfer" spec="^1.6.3" />
