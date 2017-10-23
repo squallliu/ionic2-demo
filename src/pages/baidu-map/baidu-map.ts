@@ -22,7 +22,7 @@ export class BaiduMapPage {
       city: 'ShangHai',
       markers: [{
         point: point,
-        icon: './assets/images/baidu-map/mappoint.png',
+        icon: './assets/imgs/baidu-map/mappoint.png',
         size: {
           width: 49,
           height: 60
