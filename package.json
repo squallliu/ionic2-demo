@@ -26,7 +26,6 @@
     "@ionic/storage": "2.0.1",
     "cordova-plugin-Immerse": "git+https://github.com/squallliu/cordova-plugin-Immerse.git",
     "cordova-plugin-app-event": "^1.2.0",
-    "cordova-plugin-compat": "^1.1.0",
     "cordova-plugin-device": "^1.1.6",
     "cordova-plugin-file": "^4.3.3",
     "cordova-plugin-file-opener2": "^2.0.15",
@@ -63,7 +62,6 @@
     },
     "cordova-plugin-file-transfer",
     "cordova-plugin-file",
-    "cordova-plugin-compat",
     {
       "locator": "https://github.com/squallliu/cordova-plugin-local-notifications.git",
       "id": "cordova-plugin-local-notifications"

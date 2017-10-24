@@ -20,4 +20,4 @@ function minifyimg() {
   }
 }
 
-minifyimg();
+// minifyimg();
