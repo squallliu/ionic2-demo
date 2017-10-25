@@ -67,41 +67,41 @@
   dependencies:
     tsickle "^0.21.0"
 
-"@ionic-native/core@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/core/-/core-4.3.0.tgz#0d613bb6c8779146949514299ca1c02611e308a9"
+"@ionic-native/core@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/core/-/core-4.3.2.tgz#b2e9acd5a4c961c64d786a9b4dc0c2194389efcd"
 
-"@ionic-native/device@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/device/-/device-4.3.0.tgz#126ab6a7fdef8b654deadea048c68f91aa5857f8"
+"@ionic-native/device@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/device/-/device-4.3.2.tgz#1855b1687f8c40f9591100e7325c9afd89fdb8c8"
 
-"@ionic-native/file-opener@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file-opener/-/file-opener-4.3.0.tgz#65e7af5082d78ee57670128fbb87106f6da96825"
+"@ionic-native/file-opener@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file-opener/-/file-opener-4.3.2.tgz#8de5a3c59c142babbd89dca8fcd1a22406a9c3ba"
 
-"@ionic-native/file-transfer@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file-transfer/-/file-transfer-4.3.0.tgz#fdd9b0b4c11e0f45f7f0e6727db47b033e81331c"
+"@ionic-native/file-transfer@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file-transfer/-/file-transfer-4.3.2.tgz#6f52b603234a02ca6afab6e5d26966547c0a5d5e"
 
-"@ionic-native/file@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file/-/file-4.3.0.tgz#fa2c51752149d2139271f356f91955976dba7955"
+"@ionic-native/file@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/file/-/file-4.3.2.tgz#f666950fb6b8e74f08dded7b1e4aa37ae9ec5312"
 
-"@ionic-native/geolocation@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/geolocation/-/geolocation-4.3.0.tgz#9d90d6abb956beb5cfad4115559771ed317d6bf2"
+"@ionic-native/geolocation@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/geolocation/-/geolocation-4.3.2.tgz#68021dd9e14e2278a8fdf0825e575e6b1b860fa3"
 
-"@ionic-native/local-notifications@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/local-notifications/-/local-notifications-4.3.0.tgz#25b1f2aa6ccc8dd4ff83ded020d1fdc434649527"
+"@ionic-native/local-notifications@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/local-notifications/-/local-notifications-4.3.2.tgz#4e490d30fbfb3368b36a4e76e17dc8b3c067c3ac"
 
-"@ionic-native/splash-screen@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/splash-screen/-/splash-screen-4.3.0.tgz#9deb07afcf1059807233aa7d90d6e441f6ecb372"
+"@ionic-native/splash-screen@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/splash-screen/-/splash-screen-4.3.2.tgz#4120680e24fa6d0d455800deaf18534d3033aa3a"
 
-"@ionic-native/status-bar@4.3.0":
-  version "4.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-4.3.0.tgz#ddb16861a22c7235c0737ba4e0e5127c9aee4ace"
+"@ionic-native/status-bar@4.3.2":
+  version "4.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-4.3.2.tgz#b9b32993a010dcbebe4d170f96a294d9740a8992"
 
 "@ionic/app-scripts@3.0.1":
   version "3.0.1"
@@ -724,10 +724,6 @@ cordova-plugin-app-event@^1.2.0:
   version "1.2.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-app-event/-/cordova-plugin-app-event-1.2.0.tgz#ebd3a70bfd8f26300d40e0e6c8249487ec53d5f2"
 
-cordova-plugin-compat@^1.1.0:
-  version "1.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-compat/-/cordova-plugin-compat-1.1.0.tgz#92bdf169feb61205323dcc96a3ff8348e37e87fc"
-
 cordova-plugin-device@^1.1.6:
   version "1.1.6"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-device/-/cordova-plugin-device-1.1.6.tgz#2d21764cad7c9b801523e4e09a30e024b249334b"
@@ -1183,16 +1179,16 @@ express@4.15.3:
     utils-merge "1.0.0"
     vary "~1.1.1"
 
-ext-ionic@1.9.2:
-  version "1.9.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.9.2.tgz#955472063777f01130246ed7e28b2e687e824ce3"
+ext-ionic@1.9.5:
+  version "1.9.5"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.9.5.tgz#3db57020a7954640976c81716e6594637af089d5"
   dependencies:
-    "@ionic-native/device" "4.3.0"
-    "@ionic-native/file" "4.3.0"
-    "@ionic-native/file-opener" "4.3.0"
-    "@ionic-native/file-transfer" "4.3.0"
-    "@ionic-native/geolocation" "4.3.0"
-    "@ionic-native/local-notifications" "4.3.0"
+    "@ionic-native/device" "4.3.2"
+    "@ionic-native/file" "4.3.2"
+    "@ionic-native/file-opener" "4.3.2"
+    "@ionic-native/file-transfer" "4.3.2"
+    "@ionic-native/geolocation" "4.3.2"
+    "@ionic-native/local-notifications" "4.3.2"
     "@types/hammerjs" "^2.0.34"
     "@types/lodash" "^4.14.61"
 
