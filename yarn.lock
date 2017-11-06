@@ -1179,7 +1179,7 @@ express@4.15.3:
     utils-merge "1.0.0"
     vary "~1.1.1"
 
-ext-ionic@^1.9.6:
+ext-ionic@1.9.6:
   version "1.9.6"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-1.9.6.tgz#99e10d079f32f6e240c53bd0dadb36fe29cb9e37"
   dependencies:
