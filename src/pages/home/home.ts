@@ -67,4 +67,8 @@ export class HomePage {
   navButton() {
     this.navCtrl.push('NavButtonPage');
   }
+
+  signaturePad() {
+    this.navCtrl.push('SignatureViewPage');
+  }
 }
