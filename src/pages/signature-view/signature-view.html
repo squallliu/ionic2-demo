@@ -7,5 +7,5 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding>
-  <img [src]="imgUrl" />
+  <img *ngIf="imgUrl" [src]="imgUrl" />
 </ion-content>
