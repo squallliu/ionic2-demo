@@ -98,9 +98,9 @@
   version "4.4.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-4.4.0.tgz#35bcf2012ece652bd765a972008bec5a7f258a95"
 
-"@ionic/app-scripts@3.1.0":
-  version "3.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.0.tgz#7bc598c9af0cda466c3989ee341d3db10b638e48"
+"@ionic/app-scripts@3.1.2":
+  version "3.1.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.2.tgz#2e3e686d30f9df8a5bcb20c344172cabac5c5ae3"
   dependencies:
     "@angular-devkit/build-optimizer" "0.0.32"
     autoprefixer "^7.1.6"
@@ -125,7 +125,7 @@
     tslint "^5.8.0"
     tslint-eslint-rules "^4.1.1"
     uglify-es "^3.1.6"
-    webpack "^3.8.1"
+    webpack "3.6.0"
     ws "^3.2.0"
     xml2js "^0.4.19"
 
@@ -3243,9 +3243,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.8.1:
-  version "3.8.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/webpack/-/webpack-3.8.1.tgz#b16968a81100abe61608b0153c9159ef8bb2bd83"
+webpack@3.6.0:
+  version "3.6.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/webpack/-/webpack-3.6.0.tgz#a89a929fbee205d35a4fa2cc487be9cbec8898bc"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
