@@ -26,6 +26,7 @@
     "@ionic/storage": "2.1.3",
     "cordova-plugin-Immerse": "git+https://github.com/squallliu/cordova-plugin-Immerse.git",
     "cordova-plugin-app-event": "^1.2.0",
+    "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-device": "^1.1.6",
     "cordova-plugin-file": "^4.3.3",
     "cordova-plugin-file-opener2": "^2.0.15",
@@ -70,11 +71,13 @@
     "cordova-plugin-app-event",
     "cordova-plugin-file-opener2"
   ],
-  "cordovaPlatforms": [{
-    "platform": "android",
-    "version": "",
-    "locator": "android"
-  }],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ],
   "description": "ionic2-demo: An Ionic project",
   "cordova": {
     "plugins": {
