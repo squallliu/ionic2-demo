@@ -214,7 +214,7 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-android-versions@^1.2.0:
+android-versions@^1.2.1:
   version "1.2.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/android-versions/-/android-versions-1.2.1.tgz#3f50baf693e73a512c3c5403542291cead900063"
 
@@ -724,11 +724,11 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
-cordova-android@6.3.0:
-  version "6.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-android/-/cordova-android-6.3.0.tgz#da5418433d25c75a5977b428244bbe437d0128d2"
+cordova-android@6.4.0:
+  version "6.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-android/-/cordova-android-6.4.0.tgz#54ae8da5728a8d7e5efcc6172d3dcca17bc7fe7d"
   dependencies:
-    android-versions "^1.2.0"
+    android-versions "^1.2.1"
     cordova-common "^2.1.0"
     elementtree "0.1.6"
     nopt "^3.0.1"
@@ -758,17 +758,17 @@ cordova-common@^2.1.0:
   version "1.1.1"
   resolved "git+https://github.com/squallliu/cordova-plugin-Immerse.git#ed302b91e89f719d9fc45a2c598e27555b4b7992"
 
-cordova-plugin-app-event@^1.2.0:
-  version "1.2.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-app-event/-/cordova-plugin-app-event-1.2.0.tgz#ebd3a70bfd8f26300d40e0e6c8249487ec53d5f2"
+cordova-plugin-badge@^0.8.5:
+  version "0.8.5"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-badge/-/cordova-plugin-badge-0.8.5.tgz#b136470779ddcb9f84008b29b1255852d1fb71a8"
 
 cordova-plugin-compat@^1.2.0:
   version "1.2.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-compat/-/cordova-plugin-compat-1.2.0.tgz#0bc65757276ebd920c012ce920e274177576373e"
 
-cordova-plugin-device@^1.1.6:
-  version "1.1.6"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-device/-/cordova-plugin-device-1.1.6.tgz#2d21764cad7c9b801523e4e09a30e024b249334b"
+cordova-plugin-device@^1.1.7:
+  version "1.1.7"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-device/-/cordova-plugin-device-1.1.7.tgz#fc94111be6932628c66868938ddf3dc82c9fbfe6"
 
 cordova-plugin-file-opener2@^2.0.15:
   version "2.0.19"
@@ -786,13 +786,13 @@ cordova-plugin-ionic-webview@^1.1.15:
   version "1.1.16"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-1.1.16.tgz#92d5f2e4a5a829f91b487b1761848765a31c9f1e"
 
-"cordova-plugin-local-notifications@git+https://github.com/squallliu/cordova-plugin-local-notifications.git":
-  version "0.8.4"
-  resolved "git+https://github.com/squallliu/cordova-plugin-local-notifications.git#b8fc7fd7d95d0fe2841cbb2fac0befe4668e52de"
+"cordova-plugin-local-notification@git+https://github.com/katzer/cordova-plugin-local-notifications.git":
+  version "0.9.0-beta.1"
+  resolved "git+https://github.com/katzer/cordova-plugin-local-notifications.git#77ecc1645a3cc6d6572cab183bfc12746e0d8e0f"
 
-"cordova-plugin-splashscreen@git+https://github.com/squallliu/cordova-plugin-splashscreen.git":
-  version "4.0.4-dev"
-  resolved "git+https://github.com/squallliu/cordova-plugin-splashscreen.git#8daee062557fa5afaaef00c7c6af2470b2c6bc9e"
+cordova-plugin-splashscreen@^4.1.0:
+  version "4.1.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-4.1.0.tgz#81028ab7643e615593d27f2ad02445611f1946b6"
 
 cordova-plugin-whitelist@^1.3.2:
   version "1.3.2"
@@ -1221,9 +1221,9 @@ express@^4.16.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-ext-ionic@2.0.1:
-  version "2.0.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-2.0.1.tgz#db9eb333cd1674581321a5822fbdf1c18d1c1a99"
+ext-ionic@2.1.0:
+  version "2.1.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-2.1.0.tgz#24330372373be529c2e7e1ee5cd703e031b05be0"
   dependencies:
     "@ionic-native/device" "4.4.0"
     "@ionic-native/file" "4.4.0"

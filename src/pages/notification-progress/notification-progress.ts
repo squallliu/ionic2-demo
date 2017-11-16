@@ -14,9 +14,7 @@ export class NotificationProgressPage {
     this.localNotifications.schedule({
       id: 1000,
       title: '正在下载...',
-      progress: true,
-      maxProgress: 100,
-      currentProgress: 0
+      progressBar: { enabled: true, maxValue: 100, value: 0 }
     });
   }
 
@@ -24,9 +22,7 @@ export class NotificationProgressPage {
     this.localNotifications.update({
       id: 1000,
       title: '正在下载...',
-      progress: true,
-      maxProgress: 100,
-      currentProgress: 100
+      progressBar: { enabled: true, maxValue: 100, value: 100 }
     });
   }
 
