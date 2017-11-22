@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Deeplinks } from '@ionic-native/deeplinks';
 
 import { ExtIonicModule } from 'ext-ionic';
 
@@ -36,6 +37,7 @@ const declarations: Array<any> = [
   providers: [
     StatusBar,
     SplashScreen,
+    Deeplinks,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     ListData
   ]

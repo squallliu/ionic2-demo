@@ -17,6 +17,8 @@ export class InputsPage {
   };
 
   constructor(private navParams: NavParams, public placesProvider: BaiduPlacesProvider) {
+    console.log(this.navParams.get('username'));
+    console.log(this.navParams.get('password'));
   }
 
   starChange($event) {
