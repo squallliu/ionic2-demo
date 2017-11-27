@@ -17,7 +17,7 @@ export class InputsPage {
   };
 
   constructor(private navParams: NavParams, public placesProvider: BaiduPlacesProvider, private dialog: Dialog) {
-    this.dialog.alert('提示', '账号：' + this.navParams.get('account') + '\n密码：' + this.navParams.get('password'));
+    this.dialog.alert('提示', '账号：' + (this.navParams.get('account') || this.navParams.get('username')) + '\n密码：' + this.navParams.get('password'));
   }
 
   starChange($event) {
