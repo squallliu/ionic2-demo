@@ -48,7 +48,7 @@
     "zone.js": "0.8.18"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "3.1.2",
+    "@ionic/app-scripts": "3.1.4",
     "tslint-ionic-rules": "^0.0.11",
     "typescript": "2.4.2"
   },
@@ -66,13 +66,11 @@
     "cordova-plugin-app-event",
     "cordova-plugin-file-opener2"
   ],
-  "cordovaPlatforms": [
-    {
-      "platform": "android",
-      "version": "",
-      "locator": "android"
-    }
-  ],
+  "cordovaPlatforms": [{
+    "platform": "android",
+    "version": "",
+    "locator": "android"
+  }],
   "description": "ionic2-demo: An Ionic project",
   "cordova": {
     "plugins": {

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/build-optimizer@0.0.32":
-  version "0.0.32"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular-devkit/build-optimizer/-/build-optimizer-0.0.32.tgz#1bf32332d8a7c84043059e3d265a52f9d11726fd"
+"@angular-devkit/build-optimizer@0.0.33":
+  version "0.0.33"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular-devkit/build-optimizer/-/build-optimizer-0.0.33.tgz#d040f283ed7300b5be8bc970228b835ed02df42f"
   dependencies:
     loader-utils "^1.1.0"
     source-map "^0.5.6"
@@ -102,11 +102,11 @@
   version "4.4.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-4.4.0.tgz#35bcf2012ece652bd765a972008bec5a7f258a95"
 
-"@ionic/app-scripts@3.1.2":
-  version "3.1.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.2.tgz#2e3e686d30f9df8a5bcb20c344172cabac5c5ae3"
+"@ionic/app-scripts@3.1.4":
+  version "3.1.4"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.4.tgz#d2ddfe2900c0ca4ce7071a41af7c11b8c11e5468"
   dependencies:
-    "@angular-devkit/build-optimizer" "0.0.32"
+    "@angular-devkit/build-optimizer" "0.0.33"
     autoprefixer "^7.1.6"
     chalk "^2.3.0"
     chokidar "^1.7.0"
@@ -128,8 +128,8 @@
     tiny-lr "^1.0.5"
     tslint "^5.8.0"
     tslint-eslint-rules "^4.1.1"
-    uglify-es "^3.1.6"
-    webpack "3.6.0"
+    uglify-es "^3.2.0"
+    webpack "3.8.1"
     ws "^3.2.0"
     xml2js "^0.4.19"
 
@@ -690,9 +690,13 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.9.0, commander@~2.11.0:
+commander@^2.9.0:
   version "2.11.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
+
+commander@~2.12.1:
+  version "2.12.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/commander/-/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -3260,11 +3264,11 @@ typescript@^2.3.3:
   version "2.5.3"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
 
-uglify-es@^3.1.6:
-  version "3.1.8"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/uglify-es/-/uglify-es-3.1.8.tgz#2f21a56871d6354dcc21469cc034c3967f14c5b1"
+uglify-es@^3.2.0:
+  version "3.2.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/uglify-es/-/uglify-es-3.2.0.tgz#fbbfb9dc465ec7e5065701b9720d0de977d0bc24"
   dependencies:
-    commander "~2.11.0"
+    commander "~2.12.1"
     source-map "~0.6.1"
 
 uglify-js@^2.8.29:
@@ -3389,9 +3393,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@3.6.0:
-  version "3.6.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/webpack/-/webpack-3.6.0.tgz#a89a929fbee205d35a4fa2cc487be9cbec8898bc"
+webpack@3.8.1:
+  version "3.8.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/webpack/-/webpack-3.8.1.tgz#b16968a81100abe61608b0153c9159ef8bb2bd83"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
