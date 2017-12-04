@@ -27,6 +27,7 @@ export class BaiduMapPage {
           width: 49,
           height: 60
         },
+        label: { content: '测试' },
         infoWindow: {
           title: 'Where',
           content: '<a href="http://www.baidu.com" target="_blank">Put description here</a>'
