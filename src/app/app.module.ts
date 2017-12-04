@@ -1,5 +1,5 @@
+import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { JsonpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -19,7 +19,8 @@ const declarations: Array<any> = [
   declarations: declarations,
   imports: [
     BrowserModule,
-    JsonpModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
     IonicModule.forRoot(MyApp, {
       platforms: {
         android: {
