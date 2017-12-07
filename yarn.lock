@@ -44,12 +44,6 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/http@5.0.5":
-  version "5.0.5"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/http/-/http-5.0.5.tgz#701cf7a8d917ed602747bb02c5fef3529b48f2a9"
-  dependencies:
-    tslib "^1.7.1"
-
 "@angular/platform-browser-dynamic@5.0.5":
   version "5.0.5"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.0.5.tgz#d7ac74c5ffd4c9a133ba90af160402266e92351d"
@@ -1233,9 +1227,9 @@ express@^4.16.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-ext-ionic@2.2.3:
-  version "2.2.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-2.2.3.tgz#f6251cddada2ff342ff2fdeabf4afa151ec3864f"
+ext-ionic@2.2.4:
+  version "2.2.4"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-2.2.4.tgz#704fca488c5d7ffc8627d3c2ad958051d8b3eb49"
   dependencies:
     "@ionic-native/device" "4.4.0"
     "@ionic-native/file" "4.4.0"
