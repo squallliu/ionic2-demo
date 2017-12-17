@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/build-optimizer@0.0.33":
-  version "0.0.33"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular-devkit/build-optimizer/-/build-optimizer-0.0.33.tgz#d040f283ed7300b5be8bc970228b835ed02df42f"
+"@angular-devkit/build-optimizer@0.0.35":
+  version "0.0.35"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@angular-devkit/build-optimizer/-/build-optimizer-0.0.35.tgz#3aadad1d7e9ffc7dcd106fda8a5670465936562c"
   dependencies:
     loader-utils "^1.1.0"
     source-map "^0.5.6"
-    typescript "^2.3.3"
+    typescript "~2.6.1"
     webpack-sources "^1.0.1"
 
 "@angular/common@5.0.5":
@@ -96,11 +96,11 @@
   version "4.4.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-4.4.0.tgz#35bcf2012ece652bd765a972008bec5a7f258a95"
 
-"@ionic/app-scripts@3.1.4":
-  version "3.1.4"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.4.tgz#d2ddfe2900c0ca4ce7071a41af7c11b8c11e5468"
+"@ionic/app-scripts@3.1.5":
+  version "3.1.5"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.5.tgz#ff368605fb24dcbb15e074aeaaa6adb28e88a51b"
   dependencies:
-    "@angular-devkit/build-optimizer" "0.0.33"
+    "@angular-devkit/build-optimizer" "0.0.35"
     autoprefixer "^7.1.6"
     chalk "^2.3.0"
     chokidar "^1.7.0"
@@ -3254,9 +3254,9 @@ typescript@2.4.2:
   version "2.4.2"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
 
-typescript@^2.3.3:
-  version "2.5.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
+typescript@~2.6.1:
+  version "2.6.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
 uglify-es@^3.2.0:
   version "3.2.0"
