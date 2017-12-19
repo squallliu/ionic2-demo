@@ -96,9 +96,9 @@
   version "4.4.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic-native/status-bar/-/status-bar-4.4.0.tgz#35bcf2012ece652bd765a972008bec5a7f258a95"
 
-"@ionic/app-scripts@3.1.5":
-  version "3.1.5"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.5.tgz#ff368605fb24dcbb15e074aeaaa6adb28e88a51b"
+"@ionic/app-scripts@3.1.6":
+  version "3.1.6"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@ionic/app-scripts/-/app-scripts-3.1.6.tgz#8ad84a933b6b54f4379bd5e6bac5c66e03238a43"
   dependencies:
     "@angular-devkit/build-optimizer" "0.0.35"
     autoprefixer "^7.1.6"
@@ -124,7 +124,7 @@
     tslint-eslint-rules "^4.1.1"
     uglify-es "^3.2.0"
     webpack "3.8.1"
-    ws "^3.2.0"
+    ws "3.3.2"
     xml2js "^0.4.19"
 
 "@ionic/storage@2.1.3":
@@ -1227,9 +1227,9 @@ express@^4.16.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-ext-ionic@2.2.4:
-  version "2.2.4"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-2.2.4.tgz#704fca488c5d7ffc8627d3c2ad958051d8b3eb49"
+ext-ionic@2.2.5:
+  version "2.2.5"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ext-ionic/-/ext-ionic-2.2.5.tgz#b887192420469f30fde027dad7163b9b35e38d7a"
   dependencies:
     "@ionic-native/device" "4.4.0"
     "@ionic-native/file" "4.4.0"
@@ -3469,9 +3469,9 @@ wrappy@1:
   version "1.0.2"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@^3.2.0:
-  version "3.3.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ws/-/ws-3.3.1.tgz#d97e34dee06a1190c61ac1e95f43cb60b78cf939"
+ws@3.3.2:
+  version "3.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ws/-/ws-3.3.2.tgz#96c1d08b3fefda1d5c1e33700d3bfaa9be2d5608"
   dependencies:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
