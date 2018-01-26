@@ -2,8 +2,10 @@
   "extends": "tslint-ionic-rules",
   "rules": {
     "eofline": false,
-    "no-consecutive-blank-lines": [
-      true
-    ]
+    "no-empty": false,
+    "no-import-side-effect": false,
+    "no-inferrable-types": false,
+    "prefer-conditional-expression": false,
+    "no-consecutive-blank-lines": true
   }
 }

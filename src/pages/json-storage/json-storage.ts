@@ -16,7 +16,7 @@ export class JsonStoragePage {
   }
 
   save() {
-    let obj = JSON.parse(this.jsonStr);
+    const obj = JSON.parse(this.jsonStr);
     if (!isPresent(obj)) {
       console.log('输入的字符串必须是json格式');
       return;

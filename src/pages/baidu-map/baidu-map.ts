@@ -12,7 +12,7 @@ export class BaiduMapPage {
   mapOptions: BaiduMapOptions;
 
   constructor() {
-    let point: GpsPoint = {
+    const point: GpsPoint = {
       lng: 121.506191,
       lat: 31.245554
     };
