@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>文件选择按钮</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <button ion-file-button (fileChange)="doFileChange($event)" [allowMultiple]="false" [accept]="acceptValue">上传文件</button>
+    </ion-item>
+  </ion-list>
+  <img *ngIf="data.imgSrc" [src]="data.imgSrc">
+</ion-content>

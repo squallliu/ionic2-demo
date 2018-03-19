@@ -71,4 +71,8 @@ export class HomePage {
   signaturePad() {
     this.navCtrl.push('SignatureViewPage');
   }
+
+  uploadFile() {
+    this.navCtrl.push('FileButtonPage');
+  }
 }
