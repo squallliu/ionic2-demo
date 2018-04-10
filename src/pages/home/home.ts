@@ -75,4 +75,8 @@ export class HomePage {
   uploadFile() {
     this.navCtrl.push('FileButtonPage');
   }
+
+  runMap() {
+    this.navCtrl.push('RunMapPage');
+  }
 }

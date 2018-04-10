@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>起调地图</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-input type="number" [(ngModel)]="latitude" placeholder="维度"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="number" [(ngModel)]="longitude" placeholder="经度"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button full (click)="runMap()">起调地图</button>
+</ion-content>
