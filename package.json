@@ -46,7 +46,7 @@
     "rxjs": "5.5.8",
     "signature_pad": "^2.3.2",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.20"
+    "zone.js": "0.8.26"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",
@@ -67,13 +67,11 @@
     "cordova-plugin-app-event",
     "cordova-plugin-file-opener2"
   ],
-  "cordovaPlatforms": [
-    {
-      "platform": "android",
-      "version": "",
-      "locator": "android"
-    }
-  ],
+  "cordovaPlatforms": [{
+    "platform": "android",
+    "version": "",
+    "locator": "android"
+  }],
   "description": "ionic2-demo: An Ionic project",
   "cordova": {
     "plugins": {
