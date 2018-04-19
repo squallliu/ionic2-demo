@@ -67,11 +67,13 @@
     "cordova-plugin-app-event",
     "cordova-plugin-file-opener2"
   ],
-  "cordovaPlatforms": [{
-    "platform": "android",
-    "version": "",
-    "locator": "android"
-  }],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "",
+      "locator": "android"
+    }
+  ],
   "description": "ionic2-demo: An Ionic project",
   "cordova": {
     "plugins": {
@@ -107,8 +109,6 @@
       },
       "cordova-plugin-app-launcher": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }
