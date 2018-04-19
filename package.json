@@ -10,7 +10,7 @@
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "md5hash": "node ./script/file-revision.js"
+    "md5hash": "node ./script/file-md5-hash.js"
   },
   "dependencies": {
     "@angular/common": "5.2.9",
@@ -69,13 +69,11 @@
     "cordova-plugin-app-event",
     "cordova-plugin-file-opener2"
   ],
-  "cordovaPlatforms": [
-    {
-      "platform": "android",
-      "version": "",
-      "locator": "android"
-    }
-  ],
+  "cordovaPlatforms": [{
+    "platform": "android",
+    "version": "",
+    "locator": "android"
+  }],
   "description": "ionic2-demo: An Ionic project",
   "cordova": {
     "plugins": {
