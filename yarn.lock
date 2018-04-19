@@ -148,8 +148,8 @@
   resolved "http://10.68.34.178/nexus3/repository/npm-group/@types/localforage/-/localforage-0.0.30.tgz#3d60a6bf6dda38e3f8a469611598379f1f649509"
 
 "@types/lodash@^4.14.61":
-  version "4.14.104"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/@types/lodash/-/lodash-4.14.104.tgz#53ee2357fa2e6e68379341d92eb2ecea4b11bb80"
+  version "4.14.107"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/@types/lodash/-/lodash-4.14.107.tgz#b2d2ae3958bfb8ff828495cbe12214af9e4d035e"
 
 abbrev@1:
   version "1.1.1"
@@ -362,8 +362,8 @@ asynckit@^0.4.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
 atob@^2.0.0:
-  version "2.0.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/atob/-/atob-2.0.3.tgz#19c7a760473774468f20b2d2d03372ad7d4cbf5d"
+  version "2.1.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/atob/-/atob-2.1.0.tgz#ab2b150e51d7b122b9efc8d7340c06b6c41076bc"
 
 autoprefixer@^7.1.6:
   version "7.2.6"
@@ -385,8 +385,8 @@ aws-sign2@~0.7.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
 
 aws4@^1.2.1, aws4@^1.6.0:
-  version "1.6.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
+  version "1.7.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/aws4/-/aws4-1.7.0.tgz#d4d0e9b9dbfca77bf08eeb0a8a471550fe39e289"
 
 babel-code-frame@^6.22.0:
   version "6.26.0"
@@ -408,13 +408,9 @@ base64-js@0.0.8:
   version "0.0.8"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/base64-js/-/base64-js-0.0.8.tgz#1101e9544f4a76b1bc3b26d452ca96d7a35e7978"
 
-base64-js@1.2.0:
-  version "1.2.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
-
-base64-js@^1.0.2:
-  version "1.2.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/base64-js/-/base64-js-1.2.3.tgz#fb13668233d9614cf5fb4bce95a9ba4096cdf801"
+base64-js@^1.0.2, base64-js@^1.2.3:
+  version "1.3.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/base64-js/-/base64-js-1.3.0.tgz#cab1e6118f051095e58b5281aea8c1cd22bfc0e3"
 
 base@^0.11.1:
   version "0.11.2"
@@ -435,8 +431,8 @@ bcrypt-pbkdf@^1.0.0:
     tweetnacl "^0.14.3"
 
 big-integer@^1.6.7:
-  version "1.6.26"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/big-integer/-/big-integer-1.6.26.tgz#3af1672fa62daf2d5ecafacf6e5aa0d25e02c1c8"
+  version "1.6.28"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/big-integer/-/big-integer-1.6.28.tgz#8cef0fda3ccde8759c2c66efcfacc35aea658283"
 
 big.js@^3.1.3:
   version "3.2.0"
@@ -520,16 +516,14 @@ braces@^1.8.2:
     repeat-element "^1.1.2"
 
 braces@^2.3.0, braces@^2.3.1:
-  version "2.3.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/braces/-/braces-2.3.1.tgz#7086c913b4e5a08dbe37ac0ee6a2500c4ba691bb"
+  version "2.3.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/braces/-/braces-2.3.2.tgz#5979fd3f14cd531565e5fa2df1abfff1dfaee729"
   dependencies:
     arr-flatten "^1.1.0"
     array-unique "^0.3.2"
-    define-property "^1.0.0"
     extend-shallow "^2.0.1"
     fill-range "^4.0.0"
     isobject "^3.0.1"
-    kind-of "^6.0.2"
     repeat-element "^1.1.2"
     snapdragon "^0.8.1"
     snapdragon-node "^2.0.1"
@@ -547,8 +541,8 @@ browser-resolve@^1.11.0:
     resolve "1.1.7"
 
 browserify-aes@^1.0.0, browserify-aes@^1.0.4:
-  version "1.1.1"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/browserify-aes/-/browserify-aes-1.1.1.tgz#38b7ab55edb806ff2dcda1a7f1620773a477c49f"
+  version "1.2.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/browserify-aes/-/browserify-aes-1.2.0.tgz#326734642f403dabc3003209853bb70ad428ef48"
   dependencies:
     buffer-xor "^1.0.3"
     cipher-base "^1.0.0"
@@ -558,16 +552,16 @@ browserify-aes@^1.0.0, browserify-aes@^1.0.4:
     safe-buffer "^5.0.1"
 
 browserify-cipher@^1.0.0:
-  version "1.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/browserify-cipher/-/browserify-cipher-1.0.0.tgz#9988244874bf5ed4e28da95666dcd66ac8fc363a"
+  version "1.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/browserify-cipher/-/browserify-cipher-1.0.1.tgz#8d6474c1b870bfdabcd3bcfcc1934a10e94f15f0"
   dependencies:
     browserify-aes "^1.0.4"
     browserify-des "^1.0.0"
     evp_bytestokey "^1.0.0"
 
 browserify-des@^1.0.0:
-  version "1.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/browserify-des/-/browserify-des-1.0.0.tgz#daa277717470922ed2fe18594118a175439721dd"
+  version "1.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/browserify-des/-/browserify-des-1.0.1.tgz#3343124db6d7ad53e26a8826318712bdc8450f9c"
   dependencies:
     cipher-base "^1.0.1"
     des.js "^1.0.0"
@@ -671,8 +665,8 @@ camelcase@^4.1.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
 caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
-  version "1.0.30000815"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/caniuse-lite/-/caniuse-lite-1.0.30000815.tgz#3a4258e6850362185adb11b0d754a48402d35bf6"
+  version "1.0.30000830"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/caniuse-lite/-/caniuse-lite-1.0.30000830.tgz#cb96b8a2dd3cbfe04acea2af3c4e894249095328"
 
 caseless@~0.11.0:
   version "0.11.0"
@@ -699,9 +693,9 @@ chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.3.0, chalk@^2.3.1:
-  version "2.3.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
+chalk@^2.3.0, chalk@^2.3.2:
+  version "2.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/chalk/-/chalk-2.4.0.tgz#a060a297a6b57e15b61ca63ce84995daa0fe6e52"
   dependencies:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
@@ -723,8 +717,8 @@ chokidar@^1.4.2, chokidar@^1.7.0:
     fsevents "^1.0.0"
 
 chokidar@^2.0.2:
-  version "2.0.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/chokidar/-/chokidar-2.0.2.tgz#4dc65139eeb2714977735b6a35d06e97b494dfd7"
+  version "2.0.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/chokidar/-/chokidar-2.0.3.tgz#dcbd4f6cbb2a55b4799ba8a840ac527e5f4b1176"
   dependencies:
     anymatch "^2.0.0"
     async-each "^1.0.0"
@@ -738,7 +732,7 @@ chokidar@^2.0.2:
     readdirp "^2.0.0"
     upath "^1.0.0"
   optionalDependencies:
-    fsevents "^1.0.0"
+    fsevents "^1.1.2"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   version "1.0.4"
@@ -810,8 +804,8 @@ combined-stream@1.0.6, combined-stream@^1.0.5, combined-stream@~1.0.5:
     delayed-stream "~1.0.0"
 
 commander@^2.12.1, commander@^2.9.0:
-  version "2.15.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/commander/-/commander-2.15.0.tgz#ad2a23a1c3b036e392469b8012cec6b33b4c1322"
+  version "2.15.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
 commander@~2.12.1:
   version "2.12.2"
@@ -903,9 +897,9 @@ cordova-common@^2.1.0:
   version "1.1.1"
   resolved "https://github.com/squallliu/cordova-plugin-Immerse.git#07b3b3949aed7924e13e6dfbb57102e04518c729"
 
-"cordova-plugin-app-launcher@git+https://github.com/nchutchind/cordova-plugin-app-launcher.git":
+"cordova-plugin-app-launcher@https://github.com/nchutchind/cordova-plugin-app-launcher.git":
   version "0.4.0"
-  resolved "git+https://github.com/nchutchind/cordova-plugin-app-launcher.git#f3c4509441dc88805aa047bd373970f9a915ed86"
+  resolved "https://github.com/nchutchind/cordova-plugin-app-launcher.git#f3c4509441dc88805aa047bd373970f9a915ed86"
 
 cordova-plugin-badge@^0.8.5:
   version "0.8.7"
@@ -932,8 +926,8 @@ cordova-plugin-file@^4.3.3:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-file/-/cordova-plugin-file-4.3.3.tgz#012e97aa1afb91f84916e6341b548366d23de9b9"
 
 cordova-plugin-ionic-webview@^1.1.15:
-  version "1.1.16"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-1.1.16.tgz#92d5f2e4a5a829f91b487b1761848765a31c9f1e"
+  version "1.2.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-1.2.0.tgz#83a3a7743422833899d623c074d8a0e39d36a6a1"
 
 "cordova-plugin-local-notification@https://github.com/katzer/cordova-plugin-local-notifications.git":
   version "0.9.0-beta.3"
@@ -956,24 +950,25 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
 create-ecdh@^4.0.0:
-  version "4.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/create-ecdh/-/create-ecdh-4.0.0.tgz#888c723596cdf7612f6498233eebd7a35301737d"
+  version "4.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/create-ecdh/-/create-ecdh-4.0.1.tgz#44223dfed533193ba5ba54e0df5709b89acf1f82"
   dependencies:
     bn.js "^4.1.0"
     elliptic "^6.0.0"
 
 create-hash@^1.1.0, create-hash@^1.1.2:
-  version "1.1.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/create-hash/-/create-hash-1.1.3.tgz#606042ac8b9262750f483caddab0f5819172d8fd"
+  version "1.2.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/create-hash/-/create-hash-1.2.0.tgz#889078af11a63756bcfb59bd221996be3a9ef196"
   dependencies:
     cipher-base "^1.0.1"
     inherits "^2.0.1"
-    ripemd160 "^2.0.0"
+    md5.js "^1.3.4"
+    ripemd160 "^2.0.1"
     sha.js "^2.4.0"
 
 create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
-  version "1.1.6"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/create-hmac/-/create-hmac-1.1.6.tgz#acb9e221a4e17bdb076e90657c42b93e3726cf06"
+  version "1.1.7"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/create-hmac/-/create-hmac-1.1.7.tgz#69170c78b3ab957147b2b8b04572e47ead2243ff"
   dependencies:
     cipher-base "^1.0.3"
     create-hash "^1.1.0"
@@ -1126,8 +1121,8 @@ diff@^3.2.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
 
 diffie-hellman@^5.0.0:
-  version "5.0.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/diffie-hellman/-/diffie-hellman-5.0.2.tgz#b5835739270cfe26acf632099fded2a07f209e5e"
+  version "5.0.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
   dependencies:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
@@ -1155,8 +1150,8 @@ ee-first@1.1.1:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.3.30:
-  version "1.3.37"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/electron-to-chromium/-/electron-to-chromium-1.3.37.tgz#4a92734e0044c8cf0b1553be57eae21a4c6e5fab"
+  version "1.3.42"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/electron-to-chromium/-/electron-to-chromium-1.3.42.tgz#95c33bf01d0cc405556aec899fe61fd4d76ea0f9"
 
 elementtree@0.1.6:
   version "0.1.6"
@@ -1221,11 +1216,12 @@ es3ify@^0.1.3:
     through "~2.3.4"
 
 es5-ext@^0.10.14, es5-ext@^0.10.35, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.40"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/es5-ext/-/es5-ext-0.10.40.tgz#ab3d2179b943008c5e9ef241beb25ef41424c774"
+  version "0.10.42"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/es5-ext/-/es5-ext-0.10.42.tgz#8c07dd33af04d5dcd1310b5cef13bea63a89ba8d"
   dependencies:
     es6-iterator "~2.0.3"
     es6-symbol "~3.1.1"
+    next-tick "1"
 
 es6-iterator@^2.0.1, es6-iterator@~2.0.1, es6-iterator@~2.0.3:
   version "2.0.3"
@@ -1613,7 +1609,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@^1.0.0:
+fsevents@^1.0.0, fsevents@^1.1.2:
   version "1.1.3"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/fsevents/-/fsevents-1.1.3.tgz#11f82318f5fe7bb2cd22965a108e9306208216d8"
   dependencies:
@@ -1885,7 +1881,7 @@ hosted-git-info@^2.1.4:
   version "2.6.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/hosted-git-info/-/hosted-git-info-2.6.0.tgz#23235b29ab230c576aab0d4f13fc046b0b038222"
 
-http-errors@1.6.2, http-errors@~1.6.2:
+http-errors@1.6.2:
   version "1.6.2"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/http-errors/-/http-errors-1.6.2.tgz#0a002cc85707192a7e7946ceedc11155f60ec736"
   dependencies:
@@ -1893,6 +1889,15 @@ http-errors@1.6.2, http-errors@~1.6.2:
     inherits "2.0.3"
     setprototypeof "1.0.3"
     statuses ">= 1.3.1 < 2"
+
+http-errors@~1.6.2:
+  version "1.6.3"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
+  dependencies:
+    depd "~1.1.2"
+    inherits "2.0.3"
+    setprototypeof "1.1.0"
+    statuses ">= 1.4.0 < 2"
 
 http-parser-js@>=0.4.0:
   version "0.4.11"
@@ -1923,8 +1928,8 @@ iconv-lite@0.4.19:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
 ieee754@^1.1.4:
-  version "1.1.8"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
+  version "1.1.11"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -2389,8 +2394,8 @@ localforage-cordovasqlitedriver@~1.5.0:
     localforage ">=1.4.0"
 
 localforage@>=1.4.0:
-  version "1.6.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/localforage/-/localforage-1.6.0.tgz#8b0059beeb3875c48124286ca7fdbf23d52b8c97"
+  version "1.7.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/localforage/-/localforage-1.7.1.tgz#e4927e042302b864db30f3211f13b5c6f0de965d"
   dependencies:
     lie "3.1.1"
 
@@ -2535,8 +2540,8 @@ micromatch@^2.1.5, micromatch@^2.3.11:
     regex-cache "^0.4.2"
 
 micromatch@^3.1.4:
-  version "3.1.9"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/micromatch/-/micromatch-3.1.9.tgz#15dc93175ae39e52e93087847096effc73efcf89"
+  version "3.1.10"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
   dependencies:
     arr-diff "^4.0.0"
     array-unique "^0.3.2"
@@ -2550,7 +2555,7 @@ micromatch@^3.1.4:
     object.pick "^1.3.0"
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
-    to-regex "^3.0.1"
+    to-regex "^3.0.2"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
@@ -2578,8 +2583,8 @@ mimic-fn@^1.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
 minimalistic-assert@^1.0.0:
-  version "1.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/minimalistic-assert/-/minimalistic-assert-1.0.0.tgz#702be2dda6b37f4836bcb3f5db56641b64a1d3d3"
+  version "1.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
 
 minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
@@ -2621,8 +2626,8 @@ ms@2.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
 nan@^2.3.0, nan@^2.3.2:
-  version "2.9.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
+  version "2.10.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
 nanomatch@^1.2.9:
   version "1.2.9"
@@ -2646,8 +2651,12 @@ negotiator@0.6.1:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
 neo-async@^2.5.0:
-  version "2.5.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/neo-async/-/neo-async-2.5.0.tgz#76b1c823130cca26acfbaccc8fbaf0a2fa33b18f"
+  version "2.5.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/neo-async/-/neo-async-2.5.1.tgz#acb909e327b1e87ec9ef15f41b8a269512ad41ee"
+
+next-tick@1:
+  version "1.0.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
 node-gyp@^3.3.1:
   version "3.6.2"
@@ -2910,8 +2919,8 @@ pako@~1.0.5:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
 parse-asn1@^5.0.0:
-  version "5.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/parse-asn1/-/parse-asn1-5.1.0.tgz#37c4f9b7ed3ab65c74817b5f2480937fbf97c712"
+  version "5.1.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/parse-asn1/-/parse-asn1-5.1.1.tgz#f6bf293818332bd0dab54efb16087724745e6ca8"
   dependencies:
     asn1.js "^4.0.0"
     browserify-aes "^1.0.0"
@@ -3029,11 +3038,11 @@ pinkie@^2.0.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
 plist@>=1.2.0:
-  version "2.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/plist/-/plist-2.1.0.tgz#57ccdb7a0821df21831217a3cad54e3e146a1025"
+  version "3.0.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/plist/-/plist-3.0.1.tgz#a9b931d17c304e8912ef0ba3bdd6182baf2e1f8c"
   dependencies:
-    base64-js "1.2.0"
-    xmlbuilder "8.2.2"
+    base64-js "^1.2.3"
+    xmlbuilder "^9.0.7"
     xmldom "0.1.x"
 
 plist@^1.2.0:
@@ -3054,12 +3063,12 @@ postcss-value-parser@^3.2.3:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
 postcss@^6.0.13, postcss@^6.0.17:
-  version "6.0.19"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/postcss/-/postcss-6.0.19.tgz#76a78386f670b9d9494a655bf23ac012effd1555"
+  version "6.0.21"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/postcss/-/postcss-6.0.21.tgz#8265662694eddf9e9a5960db6da33c39e4cd069d"
   dependencies:
-    chalk "^2.3.1"
+    chalk "^2.3.2"
     source-map "^0.6.1"
-    supports-color "^5.2.0"
+    supports-color "^5.3.0"
 
 preserve@^0.2.0:
   version "0.2.0"
@@ -3101,8 +3110,8 @@ pseudomap@^1.0.2:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 public-encrypt@^4.0.0:
-  version "4.0.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/public-encrypt/-/public-encrypt-4.0.0.tgz#39f699f3a46560dd5ebacbca693caf7c65c18cc6"
+  version "4.0.2"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/public-encrypt/-/public-encrypt-4.0.2.tgz#46eb9107206bf73489f8b85b69d91334c6610994"
   dependencies:
     bn.js "^4.1.0"
     browserify-rsa "^4.0.0"
@@ -3231,15 +3240,15 @@ read-pkg@^2.0.0:
     string_decoder "~0.10.x"
 
 readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.3.3:
-  version "2.3.5"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/readable-stream/-/readable-stream-2.3.5.tgz#b4f85003a938cbb6ecbce2a124fb1012bd1a838d"
+  version "2.3.6"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.3"
     isarray "~1.0.0"
     process-nextick-args "~2.0.0"
     safe-buffer "~5.1.1"
-    string_decoder "~1.0.3"
+    string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
 readdirp@^2.0.0:
@@ -3398,8 +3407,8 @@ resolve@1.1.7:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
 resolve@^1.1.6, resolve@^1.3.2, resolve@^1.4.0:
-  version "1.5.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/resolve/-/resolve-1.5.0.tgz#1f09acce796c9a762579f31b2c1cc4c3cddf9f36"
+  version "1.7.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/resolve/-/resolve-1.7.1.tgz#aadd656374fd298aee895bc026b8297418677fd3"
   dependencies:
     path-parse "^1.0.5"
 
@@ -3578,8 +3587,8 @@ setprototypeof@1.1.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/setprototypeof/-/setprototypeof-1.1.0.tgz#d0bd85536887b6fe7c0d818cb962d9d91c54e656"
 
 sha.js@^2.4.0, sha.js@^2.4.8:
-  version "2.4.10"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/sha.js/-/sha.js-2.4.10.tgz#b1fde5cd7d11a5626638a07c604ab909cfa31f9b"
+  version "2.4.11"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/sha.js/-/sha.js-2.4.11.tgz#37a5cf0b81ecbc6943de109ba2960d1b26584ae7"
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
@@ -3742,7 +3751,11 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-"statuses@>= 1.3.1 < 2", statuses@~1.4.0:
+"statuses@>= 1.3.1 < 2", "statuses@>= 1.4.0 < 2":
+  version "1.5.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
+
+statuses@~1.4.0:
   version "1.4.0"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
 
@@ -3792,15 +3805,9 @@ string_decoder@0.10, string_decoder@~0.10.x:
   version "0.10.31"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
 
-string_decoder@^1.0.0:
-  version "1.1.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-1.1.0.tgz#384f322ee8a848e500effde99901bba849c5d403"
-  dependencies:
-    safe-buffer "~5.1.0"
-
-string_decoder@~1.0.3:
-  version "1.0.3"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
+string_decoder@^1.0.0, string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
   dependencies:
     safe-buffer "~5.1.0"
 
@@ -3854,9 +3861,9 @@ supports-color@^4.2.1:
   dependencies:
     has-flag "^2.0.0"
 
-supports-color@^5.2.0, supports-color@^5.3.0:
-  version "5.3.0"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/supports-color/-/supports-color-5.3.0.tgz#5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
+supports-color@^5.3.0:
+  version "5.4.0"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
   dependencies:
     has-flag "^3.0.0"
 
@@ -3908,8 +3915,8 @@ through@~2.3.4:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
 
 timers-browserify@^2.0.4:
-  version "2.0.6"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/timers-browserify/-/timers-browserify-2.0.6.tgz#241e76927d9ca05f4d959819022f5b3664b64bae"
+  version "2.0.9"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/timers-browserify/-/timers-browserify-2.0.9.tgz#3dea6faaab8038589dc6d0c4ccbc08b02698bab3"
   dependencies:
     setimmediate "^1.0.4"
 
@@ -3941,7 +3948,7 @@ to-regex-range@^2.1.0:
     is-number "^3.0.0"
     repeat-string "^1.6.1"
 
-to-regex@^3.0.1:
+to-regex@^3.0.1, to-regex@^3.0.2:
   version "3.0.2"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/to-regex/-/to-regex-3.0.2.tgz#13cfdd9b336552f30b51f33a8ae1b42a7a7599ce"
   dependencies:
@@ -3967,8 +3974,8 @@ trim-newlines@^1.0.0:
     glob "^6.0.4"
 
 tsickle@^0.27.2:
-  version "0.27.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/tsickle/-/tsickle-0.27.2.tgz#f33d46d046f73dd5c155a37922e422816e878736"
+  version "0.27.5"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/tsickle/-/tsickle-0.27.5.tgz#41e1a41a5acf971cbb2b0558a9590779234d591f"
   dependencies:
     minimist "^1.2.0"
     mkdirp "^0.5.1"
@@ -4015,8 +4022,8 @@ tsutils@^1.4.0:
   resolved "http://10.68.34.178/nexus3/repository/npm-group/tsutils/-/tsutils-1.9.1.tgz#b9f9ab44e55af9681831d5f28d0aeeaf5c750cb0"
 
 tsutils@^2.12.1:
-  version "2.22.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/tsutils/-/tsutils-2.22.2.tgz#0b9f3d87aa3eb95bd32d26ce2b88aa329a657951"
+  version "2.26.1"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/tsutils/-/tsutils-2.26.1.tgz#9e4a0cb9ff173863f34c22a961969081270d1878"
   dependencies:
     tslib "^1.8.1"
 
@@ -4312,11 +4319,7 @@ xmlbuilder@4.0.0:
   dependencies:
     lodash "^3.5.0"
 
-xmlbuilder@8.2.2:
-  version "8.2.2"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/xmlbuilder/-/xmlbuilder-8.2.2.tgz#69248673410b4ba42e1a6136551d2922335aa773"
-
-xmlbuilder@~9.0.1:
+xmlbuilder@^9.0.7, xmlbuilder@~9.0.1:
   version "9.0.7"
   resolved "http://10.68.34.178/nexus3/repository/npm-group/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
 
@@ -4393,6 +4396,6 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-zone.js@0.8.20:
-  version "0.8.20"
-  resolved "http://10.68.34.178/nexus3/repository/npm-group/zone.js/-/zone.js-0.8.20.tgz#a218c48db09464b19ff6fc8f0d4bb5b1046e185d"
+zone.js@0.8.26:
+  version "0.8.26"
+  resolved "http://10.68.34.178/nexus3/repository/npm-group/zone.js/-/zone.js-0.8.26.tgz#7bdd72f7668c5a7ad6b118148b4ea39c59d08d2d"
