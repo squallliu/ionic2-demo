@@ -20,27 +20,11 @@
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
     "@ionic-native/core": "~4.11.0",
-    "@ionic-native/deeplinks": "~4.11.0",
     "@ionic-native/splash-screen": "~4.11.0",
     "@ionic-native/status-bar": "~4.11.0",
     "@ionic/storage": "2.1.3",
-    "cordova-android": "6.4.0",
-    "cordova-android-support-gradle-release": "^1.3.0",
-    "cordova-plugin-Immerse": "https://github.com/squallliu/cordova-plugin-Immerse.git",
-    "cordova-plugin-app-launcher": "https://github.com/nchutchind/cordova-plugin-app-launcher.git",
-    "cordova-plugin-badge": "^0.8.5",
-    "cordova-plugin-compat": "^1.2.0",
-    "cordova-plugin-device": "^1.1.7",
-    "cordova-plugin-file": "^4.3.3",
-    "cordova-plugin-file-opener2": "^2.0.15",
-    "cordova-plugin-file-transfer": "^1.6.3",
-    "cordova-plugin-ionic-webview": "^1.1.15",
-    "cordova-plugin-local-notification": "https://github.com/katzer/cordova-plugin-local-notifications.git",
-    "cordova-plugin-splashscreen": "^4.1.0",
-    "cordova-plugin-whitelist": "^1.3.2",
     "ext-ionic": "2.3.3",
     "ionic-angular": "3.9.2",
-    "ionic-plugin-deeplinks": "^1.0.15",
     "ionic-plugin-keyboard": "^2.2.1",
     "ionicons": "3.0.0",
     "rxjs": "5.5.11",
@@ -53,60 +37,5 @@
     "tslint-ionic-rules": "^0.0.13",
     "typescript": "~2.6.2"
   },
-  "cordovaPlugins": [
-    "ionic-plugin-keyboard",
-    "cordova-plugin-whitelist",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-device",
-    {
-      "locator": "https://github.com/squallliu/cordova-plugin-Immerse.git",
-      "id": "cordova-plugin-Immerse"
-    },
-    "cordova-plugin-file-transfer",
-    "cordova-plugin-file",
-    "cordova-plugin-app-event",
-    "cordova-plugin-file-opener2"
-  ],
-  "cordovaPlatforms": [{
-    "platform": "android",
-    "version": "",
-    "locator": "android"
-  }],
-  "description": "ionic2-demo: An Ionic project",
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-device": {},
-      "cordova-plugin-file-opener2": {},
-      "cordova-plugin-file-transfer": {},
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-whitelist": {},
-      "ionic-plugin-keyboard": {},
-      "cordova-plugin-Immerse": {},
-      "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-local-notification": {},
-      "ionic-plugin-deeplinks": {
-        "URL_SCHEME": "whcyit-demo",
-        "DEEPLINK_SCHEME": "https",
-        "DEEPLINK_HOST": "whcyit.com",
-        "ANDROID_PATH_PREFIX": "/",
-        "ANDROID_2_PATH_PREFIX": "/",
-        "ANDROID_3_PATH_PREFIX": "/",
-        "ANDROID_4_PATH_PREFIX": "/",
-        "ANDROID_5_PATH_PREFIX": "/",
-        "DEEPLINK_2_SCHEME": " ",
-        "DEEPLINK_2_HOST": " ",
-        "DEEPLINK_3_SCHEME": " ",
-        "DEEPLINK_3_HOST": " ",
-        "DEEPLINK_4_SCHEME": " ",
-        "DEEPLINK_4_HOST": " ",
-        "DEEPLINK_5_SCHEME": " ",
-        "DEEPLINK_5_HOST": " "
-      },
-      "cordova-android-support-gradle-release": {
-        "ANDROID_SUPPORT_VERSION": "27.+"
-      },
-      "cordova-plugin-app-launcher": {}
-    },
-    "platforms": []
-  }
+  "description": "ionic2-demo: An Ionic project"
 }
